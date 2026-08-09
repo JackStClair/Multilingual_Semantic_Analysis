@@ -70,6 +70,8 @@ class NuancePipeline:
         # add generalization. On overlap, prefer lexicon (higher trust).
         spans = _merge_span_lists(lex_spans, model_spans)
         hits = [self._enrich(s, lang_pair) for s in spans]
+        # Only surface nuances that actually appear in the translation output.
+        hits = [h for h in hits if hit_present_in_translation(h, translation)]
         return PipelineResult(
             source=text, translation=translation, target=target, hits=hits
         )
@@ -102,6 +104,25 @@ def _merge_span_lists(primary, secondary):
     return sorted(out, key=lambda x: x.start)
 
 
+def hit_present_in_translation(hit: NuanceHit, translation: str) -> bool:
+    """True if the cultural term (or English loan) appears in the MT output."""
+    if not translation:
+        return False
+    hay = translation.casefold()
+    candidates = []
+    if hit.tgt_span and hit.tgt_span.strip():
+        candidates.append(hit.tgt_span.strip())
+    if hit.text and hit.text.strip():
+        candidates.append(hit.text.strip())
+    for cand in candidates:
+        if cand.casefold() in hay:
+            return True
+        # Japanese / non-cased: also try raw containment
+        if cand in translation:
+            return True
+    return False
+
+
 def highlight_html(text: str, hits: list[NuanceHit]) -> str:
     """Render source text with clickable nuance spans."""
     if not hits:
@@ -119,6 +140,46 @@ def highlight_html(text: str, hits: list[NuanceHit]) -> str:
         )
         cursor = h.end
     parts.append(_esc(text[cursor:]))
+    return "".join(parts)
+
+
+def highlight_translation_html(translation: str, hits: list[NuanceHit]) -> str:
+    """Highlight target-side cultural spans that appear in the translation."""
+    if not translation or not hits:
+        return _esc(translation)
+    # Find non-overlapping matches for tgt_span (fallback to English text).
+    matches: list[tuple[int, int, int]] = []  # start, end, hit_idx
+    lower = translation.casefold()
+    for i, h in enumerate(hits):
+        needle = (h.tgt_span or h.text or "").strip()
+        if not needle:
+            continue
+        # prefer casefold search for Latin; raw for scripts without case
+        idx = lower.find(needle.casefold())
+        if idx < 0:
+            idx = translation.find(needle)
+        if idx < 0:
+            continue
+        matches.append((idx, idx + len(needle), i))
+    if not matches:
+        return _esc(translation)
+    matches.sort(key=lambda m: (m[0], -(m[1] - m[0])))
+    kept: list[tuple[int, int, int]] = []
+    for m in matches:
+        if kept and m[0] < kept[-1][1]:
+            continue
+        kept.append(m)
+    parts: list[str] = []
+    cursor = 0
+    for start, end, i in kept:
+        parts.append(_esc(translation[cursor:start]))
+        tip = _esc(hits[i].nuance_type)
+        parts.append(
+            f'<mark class="nuance" data-idx="{i}" title="{tip}">'
+            f"{_esc(translation[start:end])}</mark>"
+        )
+        cursor = end
+    parts.append(_esc(translation[cursor:]))
     return "".join(parts)
 
 

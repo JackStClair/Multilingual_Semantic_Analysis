@@ -13,7 +13,11 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from nuance_mt.pipeline import NuancePipeline, highlight_html
+from nuance_mt.pipeline import (
+    NuancePipeline,
+    highlight_html,
+    highlight_translation_html,
+)
 
 ROOT = Path(__file__).resolve().parents[3]
 STATIC = Path(__file__).resolve().parent / "static"
@@ -95,6 +99,9 @@ def api_translate(body: TranslateRequest):
         "translation": result.translation,
         "target": result.target,
         "source_html": highlight_html(result.source, result.hits),
+        "translation_html": highlight_translation_html(
+            result.translation, result.hits
+        ),
         "hits": [h.__dict__ for h in result.hits],
     }
 

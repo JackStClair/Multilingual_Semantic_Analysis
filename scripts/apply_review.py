@@ -58,6 +58,7 @@ def main() -> None:
                 updated = dict(r)
                 if action == "edit":
                     for key in (
+                        "source_text",
                         "src_span",
                         "src_char_start",
                         "src_char_end",
@@ -70,9 +71,26 @@ def main() -> None:
                     ):
                         if key in d.get("fields", {}):
                             updated[key] = d["fields"][key]
-                    # re-sync span text if offsets provided with source
-                    s, e = updated["src_char_start"], updated["src_char_end"]
-                    updated["src_span"] = updated["source_text"][s:e]
+                    # re-locate span if source was rewritten
+                    text = updated["source_text"]
+                    span = str(updated.get("src_span") or "")
+                    s = int(updated["src_char_start"])
+                    e = int(updated["src_char_end"])
+                    if not (0 <= s < e <= len(text)) or text[s:e] != span:
+                        idx = text.lower().find(span.lower()) if span else -1
+                        if idx >= 0:
+                            updated["src_char_start"] = idx
+                            updated["src_char_end"] = idx + len(span)
+                            updated["src_span"] = text[idx : idx + len(span)]
+                        else:
+                            # keep row but mark low confidence if span vanished
+                            updated["confidence"] = "medium"
+                            updated["review_note"] = "span_missing_after_source_edit"
+                            out.append(updated)
+                            stats["edited"] += 1
+                            continue
+                    else:
+                        updated["src_span"] = text[s:e]
                     stats["edited"] += 1
                 else:
                     stats["accepted"] += 1

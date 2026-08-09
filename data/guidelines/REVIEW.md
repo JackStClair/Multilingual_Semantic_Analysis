@@ -28,8 +28,9 @@ python -m nuance_mt.ui.server
 # open http://127.0.0.1:7860/review
 ```
 
-Work through the queue (DE/JA filterable). Decisions append to  
-`data/annotations/review_decisions.jsonl`.
+Work through the queue (DE/JA filterable). You can **rewrite the English sentence**
+when context is too thin, then click **Find span in sentence** so offsets update.
+Decisions append to `data/annotations/review_decisions.jsonl`.
 
 Apply them:
 

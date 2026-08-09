@@ -21,7 +21,9 @@
 
     <main class="translate">
       <h1>English → German / Japanese</h1>
-      <p class="lede">Translation plus clickable notes where cultural framing diverges.</p>
+      <p class="lede">
+        Translation plus notes only when the cultural term actually appears in the output.
+      </p>
 
       <label class="field">
         <span>Source (English)</span>
@@ -45,8 +47,9 @@
         <h2>Source</h2>
         <div id="source-html" class="prose"></div>
         <h2>Translation</h2>
-        <p id="translation" class="prose translation"></p>
+        <div id="translation-html" class="prose translation"></div>
         <h2>Nuance notes</h2>
+        <p class="meta" id="notes-meta"></p>
         <div id="notes" class="notes"></div>
       </section>
     </main>

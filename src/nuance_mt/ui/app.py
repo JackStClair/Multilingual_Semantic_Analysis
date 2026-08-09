@@ -6,7 +6,11 @@ from functools import lru_cache
 
 import gradio as gr
 
-from nuance_mt.pipeline import NuancePipeline, highlight_html
+from nuance_mt.pipeline import (
+    NuancePipeline,
+    highlight_html,
+    highlight_translation_html,
+)
 
 
 @lru_cache(maxsize=1)
@@ -36,22 +40,26 @@ def analyze(text: str, target_label: str):
     pipe = get_pipeline()
     result = pipe.run(text.strip(), target)
     html = (
-        "<div class='nuance-panel'><p><b>Source (click highlights)</b></p>"
-        f"<p>{highlight_html(result.source, result.hits)}</p></div>"
+        "<div class='nuance-panel'>"
+        "<p><b>Source</b></p>"
+        f"<p>{highlight_html(result.source, result.hits)}</p>"
+        "<p><b>Translation</b> (highlights only if cultural term appears)</p>"
+        f"<p>{highlight_translation_html(result.translation, result.hits)}</p>"
+        "</div>"
     )
     if not result.hits:
         detail = (
-            "_No cultural-nuance spans detected above threshold._ "
-            "Try seed examples like *homeland*, *cozy*, *dependence*, or *reading the room*."
+            "_No translation-grounded cultural-nuance hits._ "
+            "A note is shown only when the target term (or English loan) appears in the MT output."
         )
     else:
         blocks = []
         for i, h in enumerate(result.hits):
             blocks.append(
-                f"### [{i}] `{h.text}` — **{h.nuance_type}** (score {h.score:.2f})\n"
+                f"### [{i}] `{h.tgt_span or h.text}` — **{h.nuance_type}** (score {h.score:.2f})\n"
+                f"- **English trigger:** {h.text or '—'}\n"
                 f"- **English frame:** {h.en_frame or '—'}\n"
-                f"- **Target frame:** {h.target_frame or '—'}\n"
-                f"- **Suggested target span:** {h.tgt_span or '—'}\n\n"
+                f"- **Target frame:** {h.target_frame or '—'}\n\n"
                 f"{h.explanation or '_No explanation in store for this span._'}\n\n"
                 f"*Evidence:* {h.evidence or '—'}"
             )

@@ -22,9 +22,8 @@
     <main class="review">
       <h1>Human-clean medium imports</h1>
       <p class="lede">
-        Accept, edit, or reject one row at a time. Decisions save to
-        <code>data/annotations/review_decisions.jsonl</code>.
-        Then run <code>python scripts/apply_review.py</code>.
+        Rewrite thin English hosts, fix the highlighted span, then accept or reject.
+        Shortcuts: <kbd>A</kbd> accept · <kbd>E</kbd> save edits · <kbd>R</kbd> reject · <kbd>S</kbd> skip.
       </p>
 
       <div class="row">
@@ -45,12 +44,37 @@
 
       <section id="card" class="card" hidden>
         <p class="meta" id="meta"></p>
-        <p class="prose" id="sentence"></p>
 
-        <label class="field"><span>Span text</span><input id="src_span" /></label>
+        <label class="field">
+          <span>English sentence (edit if context is too thin)</span>
+          <textarea id="source_text" rows="4"></textarea>
+        </label>
+
+        <div class="preview-block">
+          <span class="field-label">Live preview</span>
+          <p class="prose" id="sentence"></p>
+          <p id="span-warning" class="warn" hidden></p>
+        </div>
+
         <div class="row">
-          <label class="field inline"><span>Start</span><input id="src_char_start" type="number" /></label>
-          <label class="field inline"><span>End</span><input id="src_char_end" type="number" /></label>
+          <label class="field" style="flex: 2">
+            <span>Nuance span in English</span>
+            <input id="src_span" placeholder="homeland" />
+          </label>
+          <button type="button" class="ghost" id="locate" style="margin-bottom: 0.9rem">
+            Find span in sentence
+          </button>
+        </div>
+
+        <details class="advanced">
+          <summary>Advanced offsets</summary>
+          <div class="row" style="margin-top: 0.75rem">
+            <label class="field inline"><span>Start</span><input id="src_char_start" type="number" /></label>
+            <label class="field inline"><span>End</span><input id="src_char_end" type="number" /></label>
+          </div>
+        </details>
+
+        <div class="row">
           <label class="field inline"><span>Type</span>
             <select id="nuance_type">
               <option>political_social</option>
@@ -61,17 +85,18 @@
               <option>untranslatable_lexical</option>
             </select>
           </label>
+          <label class="field inline"><span>Target-language span</span><input id="tgt_span" /></label>
         </div>
-        <label class="field"><span>Target span</span><input id="tgt_span" /></label>
+
         <label class="field"><span>English frame</span><input id="en_frame" /></label>
         <label class="field"><span>Target frame</span><input id="target_frame" /></label>
         <label class="field"><span>Explanation</span><textarea id="explanation" rows="4"></textarea></label>
         <label class="field"><span>Evidence</span><textarea id="evidence" rows="2"></textarea></label>
 
-        <div class="actions">
+        <div class="actions sticky-actions">
           <button type="button" class="danger" id="reject">Reject</button>
           <button type="button" class="ghost" id="skip">Skip</button>
-          <button type="button" id="accept">Accept as-is</button>
+          <button type="button" id="accept">Accept</button>
           <button type="button" class="primary" id="edit">Save edits + accept</button>
         </div>
       </section>
