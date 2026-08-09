@@ -35,9 +35,16 @@ python -m training.train_span_classifier --epochs 8
 # Evaluate vs lexicon baseline
 python -m training.evaluate
 
-# Launch Gradio demo
+# Local HTML UI (translate + review medium imports)
+python -m nuance_mt.ui.server
+# http://127.0.0.1:7860/        → translator
+# http://127.0.0.1:7860/review  → human-clean medium rows
+
+# Optional Gradio demo
 python -m nuance_mt.ui.app
 ```
+
+Human-cleaning guide: [`data/guidelines/REVIEW.md`](data/guidelines/REVIEW.md).
 
 ## Dataset
 

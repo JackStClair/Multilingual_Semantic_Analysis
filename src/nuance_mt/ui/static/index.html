@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nuance MT — local</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <a class="brand" href="/">Nuance MT</a>
+      <nav>
+        <a href="/" aria-current="page">Translate</a>
+        <a href="/review">Review imports</a>
+      </nav>
+    </header>
+
+    <main class="translate">
+      <h1>English → German / Japanese</h1>
+      <p class="lede">Translation plus clickable notes where cultural framing diverges.</p>
+
+      <label class="field">
+        <span>Source (English)</span>
+        <textarea id="source" rows="5" placeholder="After years abroad, he still longed for his homeland…"></textarea>
+      </label>
+
+      <div class="row">
+        <label class="field inline">
+          <span>Target</span>
+          <select id="target">
+            <option value="de">German</option>
+            <option value="ja">Japanese</option>
+          </select>
+        </label>
+        <button id="run" type="button">Translate</button>
+      </div>
+
+      <p id="status" class="status" hidden></p>
+
+      <section class="out" hidden id="out">
+        <h2>Source</h2>
+        <div id="source-html" class="prose"></div>
+        <h2>Translation</h2>
+        <p id="translation" class="prose translation"></p>
+        <h2>Nuance notes</h2>
+        <div id="notes" class="notes"></div>
+      </section>
+    </main>
+  </div>
+  <script src="/static/translate.js"></script>
+</body>
+</html>

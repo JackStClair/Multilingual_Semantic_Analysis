@@ -21,6 +21,8 @@ dependencies = [
   "safetensors>=0.4.0",
   "huggingface-hub>=0.22.0",
   "gradio>=4.27.0",
+  "fastapi>=0.110.0",
+  "uvicorn>=0.27.0",
   "scikit-learn>=1.4.0",
   "tqdm>=4.66.0",
   "pyyaml>=6.0",
@@ -31,10 +33,14 @@ dev = ["pytest>=8.0", "ruff>=0.3.0"]
 
 [project.scripts]
 nuance-demo = "nuance_mt.ui.app:main"
+nuance-ui = "nuance_mt.ui.server:main"
 
 [tool.setuptools.packages.find]
 where = ["src", "."]
 include = ["nuance_mt*", "training*"]
+
+[tool.setuptools.package-data]
+nuance_mt = ["ui/static/*"]
 
 [tool.ruff]
 line-length = 100
