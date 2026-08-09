@@ -1,0 +1,256 @@
+{
+  "lang_pair": "en-ja",
+  "version": "0.1.0",
+  "items": [
+    {
+      "id": "ja-amae",
+      "en_triggers": ["dependence", "dependent", "rely on", "lean on"],
+      "tgt_span": "甘え",
+      "nuance_type": "self_other",
+      "en_frame": "dependence as weakness or immaturity",
+      "target_frame": "amae: expected relational indulgence within intimate hierarchy",
+      "explanation": "English 'dependence' is often pathologized. Amae names a culturally legible plea for indulgent care—not mere inability.",
+      "evidence": "Doi, Takeo. The Anatomy of Dependence (Amae no Kōzō)."
+    },
+    {
+      "id": "ja-wa",
+      "en_triggers": ["harmony", "group harmony", "keep the peace"],
+      "tgt_span": "和",
+      "nuance_type": "self_other",
+      "en_frame": "absence of conflict / pleasant agreement",
+      "target_frame": "wa: prioritized group concord shaping speech and self-presentation",
+      "explanation": "English 'harmony' is aesthetic/social calm. Wa is a normative social good that can license indirectness and self-restraint.",
+      "evidence": "Lebra, Takie. Japanese Patterns of Behavior; discussions of wa in intercultural pragmatics."
+    },
+    {
+      "id": "ja-honne-tatemae",
+      "en_triggers": ["true feelings", "public face", "real feelings versus public stance"],
+      "tgt_span": "本音/建前",
+      "nuance_type": "self_other",
+      "en_frame": "honesty vs politeness",
+      "target_frame": "structured dual stance: honne (inner) / tatemae (official front)",
+      "explanation": "Honne/tatemae is an institutionalized dual presentation, not just 'white lies' versus honesty.",
+      "evidence": "Lebra; intercultural communication texts on honne and tatemae."
+    },
+    {
+      "id": "ja-kuuki",
+      "en_triggers": ["reading the room", "read the room", "atmosphere", "air of the room"],
+      "tgt_span": "空気",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "social vibe / mood",
+      "target_frame": "kuuki: normative atmosphere one must 'read' (空気を読む)",
+      "explanation": "Kuuki o yomu makes atmosphere a readable social demand; English 'vibe' is lighter and less obligatory.",
+      "evidence": "Yamamoto Shichihei on 'air'; contemporary discussions of 空気を読む."
+    },
+    {
+      "id": "ja-natsukashii",
+      "en_triggers": ["nostalgic", "nostalgia", "fondly missed"],
+      "tgt_span": "懐かしい",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "wistful longing for the past",
+      "target_frame": "natsukashii: warm recognition of something personally familiar from before",
+      "explanation": "Natsukashii is often triggered by sensory recognition of the familiar past—closer to fond familiarity than melancholic nostalgia alone.",
+      "evidence": "Japanese emotion vocabulary studies; bilingual dictionary contrast notes."
+    },
+    {
+      "id": "ja-otsukaresama",
+      "en_triggers": ["good work", "thanks for your hard work", "you must be tired"],
+      "tgt_span": "お疲れ様",
+      "nuance_type": "politeness_stance",
+      "en_frame": "thanks for effort",
+      "target_frame": "ritual acknowledgment of shared labor and reciprocal fatigue",
+      "explanation": "Otsukaresama is phatic workplace ritual recognizing mutual exertion; English thanks-for-your-work is thinner socially.",
+      "evidence": "Japanese business communication manuals; pragmatic studies of お疲れ様です."
+    },
+    {
+      "id": "ja-enryo",
+      "en_triggers": ["restraint", "hold back", "don't impose", "hesitate to impose"],
+      "tgt_span": "遠慮",
+      "nuance_type": "politeness_stance",
+      "en_frame": "polite hesitation",
+      "target_frame": "enryo: institutionalized non-imposition and self-restraint",
+      "explanation": "Enryo is socially expected restraint against imposing; English 'you're too polite' mishears it as mere shyness.",
+      "evidence": "Lebra on enryo; Japanese politeness research."
+    },
+    {
+      "id": "ja-majime",
+      "en_triggers": ["serious", "earnest", "diligent"],
+      "tgt_span": "真面目",
+      "nuance_type": "self_other",
+      "en_frame": "not joking / grave",
+      "target_frame": "majime: reliable earnestness valued as character",
+      "explanation": "Majime praises conscientious reliability, not only 'not funny' seriousness.",
+      "evidence": "Japanese character-term discussions; bilingual learner dictionaries."
+    },
+    {
+      "id": "ja-gaman",
+      "en_triggers": ["endurance", "put up with it", "grin and bear it", "patience"],
+      "tgt_span": "我慢",
+      "nuance_type": "self_other",
+      "en_frame": "patience under inconvenience",
+      "target_frame": "gaman: virtuous endurance of hardship without complaint",
+      "explanation": "Gaman moralizes enduring; English 'patience' can be thinner and less characterological.",
+      "evidence": "Cultural psychology notes on gaman; Japanese values literature."
+    },
+    {
+      "id": "ja-ikigai",
+      "en_triggers": ["life purpose", "reason for living", "what gets you up"],
+      "tgt_span": "生きがい",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "purpose / passion",
+      "target_frame": "ikigai: worth-of-living nested in daily roles, not only grand passion",
+      "explanation": "Popular English 'ikigai' charts oversimplify; the Japanese term centers worth in living, including mundane roles.",
+      "evidence": "Kamiya Mieko on ikigai; critiques of Westernized ikigai diagrams."
+    },
+    {
+      "id": "ja-komorebi",
+      "en_triggers": ["sunlight through leaves", "dappled light in trees"],
+      "tgt_span": "木漏れ日",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "sunlight in a forest",
+      "target_frame": "single lexical package for light leaking through leaves",
+      "explanation": "Komorebi is a ready-made aesthetic lexical item; English needs a descriptive phrase.",
+      "evidence": "Japanese aesthetic vocabulary lists; bilingual 'untranslatable' compilations."
+    },
+    {
+      "id": "ja-shibui",
+      "en_triggers": ["understated", "austere beauty", "subtle taste"],
+      "tgt_span": "渋い",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "subtle / muted style",
+      "target_frame": "shibui: astringent, refined restraint in taste",
+      "explanation": "Shibui names an aesthetic of restrained refinement; English 'understated' lacks the astringent taste metaphor.",
+      "evidence": "Aesthetic vocabulary in Japanese art history; Keene and related discussions."
+    },
+    {
+      "id": "ja-itadakimasu",
+      "en_triggers": ["thanks for the food", "let's eat", "I humbly receive"],
+      "tgt_span": "いただきます",
+      "nuance_type": "politeness_stance",
+      "en_frame": "pre-meal thanks",
+      "target_frame": "ritual humble receiving before eating",
+      "explanation": "Itadakimasu is a set ritual formula of receiving; English meal thanks vary and lack the fixed humble verb.",
+      "evidence": "Japanese formula routines in pragmatics textbooks."
+    },
+    {
+      "id": "ja-mottainai",
+      "en_triggers": ["what a waste", "too good to waste", "wasteful"],
+      "tgt_span": "もったいない",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "regret about waste",
+      "target_frame": "mottainai: regret that value/potential is not fully used",
+      "explanation": "Mottainai blends waste regret with respect for inherent value—broader than 'don't waste that'.",
+      "evidence": "Popularized globally via environmental campaigns; Japanese usage notes."
+    },
+    {
+      "id": "ja-sempai-kohai",
+      "en_triggers": ["senior", "junior", "mentor junior hierarchy"],
+      "tgt_span": "先輩/後輩",
+      "nuance_type": "institutional_legal",
+      "en_frame": "more experienced colleague",
+      "target_frame": "sempai–kōhai: enduring hierarchical role pair with duties",
+      "explanation": "Sempai/kōhai is a durable institutional relation, not only 'senior at work'.",
+      "evidence": "Rohlen and educational ethnographies; Japanese organizational culture texts."
+    },
+    {
+      "id": "ja-kaizen",
+      "en_triggers": ["continuous improvement", "incremental improvement"],
+      "tgt_span": "改善",
+      "nuance_type": "institutional_legal",
+      "en_frame": "process improvement buzzword",
+      "target_frame": "kaizen: shop-floor continuous improvement ethos",
+      "explanation": "As English management jargon, kaizen is thinner than Japanese workplace-improvement practice histories.",
+      "evidence": "Imai Masaaki; lean/TPS historical overviews."
+    },
+    {
+      "id": "ja-omotenashi",
+      "en_triggers": ["hospitality", "wholehearted hospitality"],
+      "tgt_span": "おもてなし",
+      "nuance_type": "politeness_stance",
+      "en_frame": "good customer service",
+      "target_frame": "omotenashi: anticipatory hospitality without expectation of tip-like return",
+      "explanation": "Omotenashi emphasizes anticipatory care; English 'hospitality' is broader and commercially flatter.",
+      "evidence": "Tourism discourse analyses of omotenashi; Japanese service culture writing."
+    },
+    {
+      "id": "ja-shoganai",
+      "en_triggers": ["it can't be helped", "nothing you can do", "it is what it is"],
+      "tgt_span": "しょうがない",
+      "nuance_type": "self_other",
+      "en_frame": "resignation / acceptance",
+      "target_frame": "shōganai: socially routine acceptance of uncontrollable circumstance",
+      "explanation": "Shōganai is an everyday acceptance formula; English 'it is what it is' is close but less ritualized.",
+      "evidence": "Japanese conversational routines; intercultural communication notes."
+    },
+    {
+      "id": "ja-ganbaru",
+      "en_triggers": ["do your best", "hang in there", "keep at it"],
+      "tgt_span": "頑張る",
+      "nuance_type": "self_other",
+      "en_frame": "encouragement to try hard",
+      "target_frame": "ganbaru: culturally saturated perseverance ethos",
+      "explanation": "Ganbaru is ubiquitous encouragement/identity talk about persevering; English 'do your best' is weaker as a social script.",
+      "evidence": "Cultural discussions of ganbaru in education and sports."
+    },
+    {
+      "id": "ja-uchi-soto",
+      "en_triggers": ["in-group", "out-group", "insiders and outsiders"],
+      "tgt_span": "内/外",
+      "nuance_type": "self_other",
+      "en_frame": "us vs them",
+      "target_frame": "uchi/soto: pervasive in-out boundary shaping language and obligation",
+      "explanation": "Uchi/soto organizes linguistic and social boundaries more systematically than casual English in-group talk.",
+      "evidence": "Lebra; Bachnik & Quinn (eds.) Situated Meaning on uchi/soto."
+    },
+    {
+      "id": "ja-nemawashi",
+      "en_triggers": ["lay the groundwork", "consensus building beforehand", "pre-meeting alignment"],
+      "tgt_span": "根回し",
+      "nuance_type": "institutional_legal",
+      "en_frame": "lobby before the meeting",
+      "target_frame": "nemawashi: root-binding informal consensus before formal decision",
+      "explanation": "Nemawashi is expected organizational practice; English 'lobbying' can sound adversarial.",
+      "evidence": "Japanese management literature on nemawashi."
+    },
+    {
+      "id": "ja-wabi-sabi",
+      "en_triggers": ["rustic beauty", "beauty of imperfection", "weathered beauty"],
+      "tgt_span": "侘寂",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "imperfect aesthetics",
+      "target_frame": "wabi-sabi: aesthetic of transience and humble imperfection",
+      "explanation": "Wabi-sabi is a dense aesthetic complex; English 'imperfect beauty' is a thin calque.",
+      "evidence": "Japanese aesthetics overviews (e.g. Juniper; classic tea-culture sources)."
+    },
+    {
+      "id": "ja-jiyuu",
+      "en_triggers": ["freedom", "liberty"],
+      "tgt_span": "自由",
+      "nuance_type": "political_social",
+      "en_frame": "individual liberty",
+      "target_frame": "jiyū: freedom with distinct modern-Japanese political history",
+      "explanation": "Jiyū translates freedom/liberty but sits in Meiji-to-present political vocabulary with different emphases than Anglo-American liberty talk.",
+      "evidence": "Intellectual histories of 自由 in modern Japan."
+    },
+    {
+      "id": "ja-en",
+      "en_triggers": ["fateful connection", "destiny bond", "deep connection"],
+      "tgt_span": "縁",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "relationship / networking",
+      "target_frame": "en: karmic/fateful human connection",
+      "explanation": "En names relational fate; English 'connection' is transactional or vague by comparison.",
+      "evidence": "Buddhist-influenced Japanese relational vocabulary notes."
+    },
+    {
+      "id": "ja-kawaii",
+      "en_triggers": ["cute", "adorable"],
+      "tgt_span": "可愛い",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "cute appearance",
+      "target_frame": "kawaii: expansive aesthetic/social category beyond childlike cute",
+      "explanation": "Kawaii saturates aesthetics and social evaluation more widely than English 'cute'.",
+      "evidence": "Yomota Inuhiko; cultural studies of kawaii."
+    }
+  ]
+}

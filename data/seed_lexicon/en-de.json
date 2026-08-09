@@ -1,0 +1,256 @@
+{
+  "lang_pair": "en-de",
+  "version": "0.1.0",
+  "items": [
+    {
+      "id": "de-heimat",
+      "en_triggers": ["homeland", "home soil", "native home"],
+      "tgt_span": "Heimat",
+      "nuance_type": "political_social",
+      "en_frame": "country of origin / natal place",
+      "target_frame": "emotionally charged belonging, locality, historically contested national feeling",
+      "explanation": "English 'homeland' often denotes origin country. German Heimat layers intimate belonging to place with a politically contested history. A flat gloss as 'home country' underplays that load.",
+      "evidence": "Blickle, Peter. Heimat: A Critical Theory of the German Idea of Homeland. Camden House, 2002."
+    },
+    {
+      "id": "de-gemuetlichkeit",
+      "en_triggers": ["cozy", "coziness", "snug atmosphere"],
+      "tgt_span": "Gemütlichkeit",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "physical comfort / snugness",
+      "target_frame": "social warmth, unhurried belonging, shared ease",
+      "explanation": "English 'cozy' centers comfort. Gemütlichkeit implies a socially shared, unhurried warmth—atmosphere among people, not only soft furniture.",
+      "evidence": "Oxford German Dictionary usage notes; cultural lexicons on Gemütlichkeit as social atmosphere."
+    },
+    {
+      "id": "de-bildung",
+      "en_triggers": ["education", "cultivation", "self-cultivation"],
+      "tgt_span": "Bildung",
+      "nuance_type": "institutional_legal",
+      "en_frame": "schooling / skills acquisition",
+      "target_frame": "formative self-cultivation, cultural formation of the person",
+      "explanation": "English 'education' often means schooling. Bildung historically names formative cultivation of character and culture, broader than credentialing.",
+      "evidence": "Horlacher, Stefan et al. (eds.). Reflections on Bildung. 2017; Humboldtian Bildung tradition overviews."
+    },
+    {
+      "id": "de-freiheit",
+      "en_triggers": ["freedom", "liberty"],
+      "tgt_span": "Freiheit",
+      "nuance_type": "political_social",
+      "en_frame": "individual rights / non-interference (esp. liberty)",
+      "target_frame": "freedom as civic/philosophical good, often less hyper-individualist in public discourse",
+      "explanation": "English 'liberty' skews individualist-rights. German Freiheit covers overlapping ground but frequently sits in civic-philosophical registers where communal political goods are audible.",
+      "evidence": "Berlin, Isaiah. Two Concepts of Liberty (contrastive frame); bilingual political lexicon notes on Freiheit."
+    },
+    {
+      "id": "de-schuld",
+      "en_triggers": ["guilt", "fault", "blame"],
+      "tgt_span": "Schuld",
+      "nuance_type": "self_other",
+      "en_frame": "moral culpability of the individual",
+      "target_frame": "guilt/debt complex—moral and sometimes financial/obligational overtones",
+      "explanation": "Schuld binds moral guilt and debt etymologically; English splits 'guilt' and 'debt'. Translations can flatten that double resonance.",
+      "evidence": "Nietzsche on Schuld/Schulden; standard etymological notes in DWDS/Duden."
+    },
+    {
+      "id": "de-sehnsucht",
+      "en_triggers": ["longing", "yearning", "deep longing"],
+      "tgt_span": "Sehnsucht",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "desire for something absent",
+      "target_frame": "intense, often bittersweet longing with Romantic cultural weight",
+      "explanation": "Sehnsucht is denser than 'longing'—culturally marked Romantic yearning, not a casual want.",
+      "evidence": "German Romanticism lexicons; bilingual literary glossaries on Sehnsucht."
+    },
+    {
+      "id": "de-weltschmerz",
+      "en_triggers": ["world-weariness", "world weariness", "existential weariness"],
+      "tgt_span": "Weltschmerz",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "tiredness of life circumstances",
+      "target_frame": "pessimistic sorrow at the world's mismatch with ideals",
+      "explanation": "Weltschmerz packages world-directed melancholy; English paraphrases lose the compact Romantic diagnosis.",
+      "evidence": "OED entry Weltschmerz; literary histories of Romantic pessimism."
+    },
+    {
+      "id": "de-schadenfreude",
+      "en_triggers": ["joy at misfortune", "pleasure at others' pain", "gloating"],
+      "tgt_span": "Schadenfreude",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "gloating / mean pleasure",
+      "target_frame": "lexicalized compound naming pleasure-at-harm as a recognized emotion",
+      "explanation": "Even as a loanword, English often moralizes 'gloating'; German compounds the emotion as nameable without the same sermonizing default.",
+      "evidence": "Smith, Richard H. The Joy of Pain (Schadenfreude studies)."
+    },
+    {
+      "id": "de-duzen",
+      "en_triggers": ["use first names", "be on familiar terms", "switch to informal address"],
+      "tgt_span": "duzen",
+      "nuance_type": "politeness_stance",
+      "en_frame": "informal friendliness",
+      "target_frame": "binary T/V address shift with social risk and intimacy signaling",
+      "explanation": "English informality is gradient. German duzen/Siezen is a sharper stance system; 'be friendly' under-specifies the address switch.",
+      "evidence": "Brown & Gilman T/V; German pragmatics textbooks on Anrede."
+    },
+    {
+      "id": "de-siezen",
+      "en_triggers": ["formal address", "use formal you", "keep formal distance"],
+      "tgt_span": "Siezen",
+      "nuance_type": "politeness_stance",
+      "en_frame": "polite distance",
+      "target_frame": "grammaticalized V-form respect/distance",
+      "explanation": "English 'formal' is stylistic; Siezen is a grammaticalized social stance.",
+      "evidence": "German Anrede pragmatics; House & Kasper politeness contrastive work."
+    },
+    {
+      "id": "de-beruf",
+      "en_triggers": ["profession", "vocation", "calling"],
+      "tgt_span": "Beruf",
+      "nuance_type": "institutional_legal",
+      "en_frame": "job / career track",
+      "target_frame": "vocation with Weberian calling resonances alongside modern occupation",
+      "explanation": "Beruf can mean job yet historically echoes 'calling'; English 'job' strips that, while 'vocation' over-sacralizes everyday use.",
+      "evidence": "Weber, The Protestant Ethic (Beruf); bilingual sociological glossaries."
+    },
+    {
+      "id": "de-angst",
+      "en_triggers": ["anxiety", "dread", "existential anxiety"],
+      "tgt_span": "Angst",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "clinical or situational anxiety",
+      "target_frame": "broader dread; philosophical Angst in existential registers",
+      "explanation": "As loanword and native German, Angst spans fear/anxiety/existential dread; English 'anxiety' often medicalizes.",
+      "evidence": "Kierkegaardian Angst reception; bilingual psych/philosophy gloss notes."
+    },
+    {
+      "id": "de-fernweh",
+      "en_triggers": ["wanderlust", "itch to travel", "desire to be elsewhere"],
+      "tgt_span": "Fernweh",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "desire to travel",
+      "target_frame": "ache for the far-away (counterpart to Heimweh)",
+      "explanation": "Fernweh is an ache for distant places—more bittersweet than upbeat 'wanderlust'.",
+      "evidence": "German cultural lexicons contrasting Heimweh/Fernweh."
+    },
+    {
+      "id": "de-heimweh",
+      "en_triggers": ["homesickness", "homesick"],
+      "tgt_span": "Heimweh",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "missing home comforts",
+      "target_frame": "ache oriented to Heimat-like belonging",
+      "explanation": "Heimweh pairs with Heimat discourse; English homesickness is real but less tied to that lexical field.",
+      "evidence": "Cultural histories of Heimweh; bilingual dictionaries."
+    },
+    {
+      "id": "de-ordnung",
+      "en_triggers": ["order", "orderliness", "keeping order"],
+      "tgt_span": "Ordnung",
+      "nuance_type": "institutional_legal",
+      "en_frame": "neat arrangement",
+      "target_frame": "socially valued order, rule-conformity, public regularity",
+      "explanation": "Ordnung can be moral-social ('Ordnung muss sein'), not mere tidiness.",
+      "evidence": "Stereotypes vs. linguistic reality discussed in intercultural German studies; Duden usage."
+    },
+    {
+      "id": "de-pflicht",
+      "en_triggers": ["duty", "obligation"],
+      "tgt_span": "Pflicht",
+      "nuance_type": "institutional_legal",
+      "en_frame": "task one must do",
+      "target_frame": "duty with strong Kantian/moral-educational resonance",
+      "explanation": "Pflicht carries a heavier moral-philosophical tradition than casual English 'duty'.",
+      "evidence": "Kantian Pflicht in moral philosophy primers; bilingual ethics glossaries."
+    },
+    {
+      "id": "de-geist",
+      "en_triggers": ["mind", "spirit", "intellect"],
+      "tgt_span": "Geist",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "mind as cognitive faculty OR spirit as supernatural",
+      "target_frame": "mind/spirit/intellect continuum (Zeitgeist, Geisteswissenschaften)",
+      "explanation": "Geist straddles mind and spirit; English forces a split that German often leaves productive.",
+      "evidence": "Hegelian Geist discussions; translation studies on Geist."
+    },
+    {
+      "id": "de-mitdenken",
+      "en_triggers": ["think along", "anticipate needs", "think ahead with others"],
+      "tgt_span": "mitdenken",
+      "nuance_type": "self_other",
+      "en_frame": "be proactive",
+      "target_frame": "think-with: anticipate shared task without being asked",
+      "explanation": "Mitdenken praises collaborative anticipation; English 'proactive' individualizes the virtue.",
+      "evidence": "German workplace communication guides on Mitdenken."
+    },
+    {
+      "id": "de-fingerspitzengefuehl",
+      "en_triggers": ["tact", "intuition", "delicate intuition"],
+      "tgt_span": "Fingerspitzengefühl",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "tactfulness",
+      "target_frame": "finely tuned situational instinct (fingertip feeling)",
+      "explanation": "Fingerspitzengefühl blends tact, timing, and embodied judgment beyond polite 'tact'.",
+      "evidence": "Bilingual idiom dictionaries; leadership German loanword notes."
+    },
+    {
+      "id": "de-geborgenheit",
+      "en_triggers": ["security", "feeling safe", "safe belonging"],
+      "tgt_span": "Geborgenheit",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "safety / security",
+      "target_frame": "sheltered emotional safety and belonging",
+      "explanation": "Geborgenheit is warm shelteredness, not only physical security.",
+      "evidence": "Developmental/cultural psychology notes on Geborgenheit; bilingual dictionaries."
+    },
+    {
+      "id": "de-verschmitzt",
+      "en_triggers": ["mischievous", "knowing smile", "impish"],
+      "tgt_span": "verschmitzt",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "naughty humor",
+      "target_frame": "wry, knowing mischievousness",
+      "explanation": "Verschmitzt is a particular wry knowingness; 'mischievous' is broader and more childish.",
+      "evidence": "Duden; bilingual literary glossaries."
+    },
+    {
+      "id": "de-leitkultur",
+      "en_triggers": ["lead culture", "core culture", "dominant culture"],
+      "tgt_span": "Leitkultur",
+      "nuance_type": "political_social",
+      "en_frame": "mainstream culture",
+      "target_frame": "politicized 'guiding culture' in German integration debates",
+      "explanation": "Leitkultur is a loaded political keyword; English 'mainstream culture' misses the debate-specific charge.",
+      "evidence": "Bassam Tibi origin debates; German press discourse analyses on Leitkultur."
+    },
+    {
+      "id": "de-vergangenheitsbewaeltigung",
+      "en_triggers": ["coming to terms with the past", "working through the past"],
+      "tgt_span": "Vergangenheitsbewältigung",
+      "nuance_type": "political_social",
+      "en_frame": "historical reckoning in general",
+      "target_frame": "specifically German postwar working-through of Nazi crimes",
+      "explanation": "The German compound names a historically specific project; generic English 'reckoning' dilutes that specificity.",
+      "evidence": "Historical literature on Vergangenheitsbewältigung (e.g. Adorno-related debates)."
+    },
+    {
+      "id": "de-buergerlich",
+      "en_triggers": ["middle-class", "bourgeois", "respectable middle-class"],
+      "tgt_span": "bürgerlich",
+      "nuance_type": "political_social",
+      "en_frame": "socioeconomic middle class",
+      "target_frame": "bourgeois respectability, civic-cultural norms",
+      "explanation": "Bürgerlich blends class and respectability norms; English 'middle-class' is flatter sociologically.",
+      "evidence": "German social history on Bürgertum; bilingual sociological terms."
+    },
+    {
+      "id": "de-fremdscham",
+      "en_triggers": ["secondhand embarrassment", "vicarious embarrassment"],
+      "tgt_span": "Fremdscham",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "embarrassment for someone else",
+      "target_frame": "lexicalized foreign-shame as everyday emotion term",
+      "explanation": "Fremdscham compactly names vicarious cringe; English needs a phrase.",
+      "evidence": "Contemporary German emotion vocabulary; bilingual internet lexicography."
+    }
+  ]
+}

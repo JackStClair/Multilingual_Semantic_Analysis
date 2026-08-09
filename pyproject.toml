@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nuance-mt"
+version = "0.1.0"
+description = "Cultural nuance-aware translation (EN→DE / EN→JA) with MLX span detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Jack St Clair" }]
+dependencies = [
+  "mlx>=0.22.0",
+  "mlx-lm>=0.21.0",
+  "numpy>=1.26.0",
+  "transformers>=4.40.0",
+  "torch>=2.2.0",
+  "sentencepiece>=0.2.0",
+  "protobuf>=4.25.0",
+  "safetensors>=0.4.0",
+  "huggingface-hub>=0.22.0",
+  "gradio>=4.27.0",
+  "scikit-learn>=1.4.0",
+  "tqdm>=4.66.0",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.3.0"]
+
+[project.scripts]
+nuance-demo = "nuance_mt.ui.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = ["nuance_mt*", "training*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
