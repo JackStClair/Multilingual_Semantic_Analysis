@@ -1,10 +1,15 @@
 {
   "lang_pair": "en-ja",
-  "version": "0.1.0",
+  "version": "0.2.0-external",
   "items": [
     {
       "id": "ja-amae",
-      "en_triggers": ["dependence", "dependent", "rely on", "lean on"],
+      "en_triggers": [
+        "dependence",
+        "dependent",
+        "rely on",
+        "lean on"
+      ],
       "tgt_span": "甘え",
       "nuance_type": "self_other",
       "en_frame": "dependence as weakness or immaturity",
@@ -14,7 +19,11 @@
     },
     {
       "id": "ja-wa",
-      "en_triggers": ["harmony", "group harmony", "keep the peace"],
+      "en_triggers": [
+        "harmony",
+        "group harmony",
+        "keep the peace"
+      ],
       "tgt_span": "和",
       "nuance_type": "self_other",
       "en_frame": "absence of conflict / pleasant agreement",
@@ -24,7 +33,11 @@
     },
     {
       "id": "ja-honne-tatemae",
-      "en_triggers": ["true feelings", "public face", "real feelings versus public stance"],
+      "en_triggers": [
+        "true feelings",
+        "public face",
+        "real feelings versus public stance"
+      ],
       "tgt_span": "本音/建前",
       "nuance_type": "self_other",
       "en_frame": "honesty vs politeness",
@@ -34,7 +47,12 @@
     },
     {
       "id": "ja-kuuki",
-      "en_triggers": ["reading the room", "read the room", "atmosphere", "air of the room"],
+      "en_triggers": [
+        "reading the room",
+        "read the room",
+        "atmosphere",
+        "air of the room"
+      ],
       "tgt_span": "空気",
       "nuance_type": "affect_atmosphere",
       "en_frame": "social vibe / mood",
@@ -44,7 +62,11 @@
     },
     {
       "id": "ja-natsukashii",
-      "en_triggers": ["nostalgic", "nostalgia", "fondly missed"],
+      "en_triggers": [
+        "nostalgic",
+        "nostalgia",
+        "fondly missed"
+      ],
       "tgt_span": "懐かしい",
       "nuance_type": "affect_atmosphere",
       "en_frame": "wistful longing for the past",
@@ -54,7 +76,11 @@
     },
     {
       "id": "ja-otsukaresama",
-      "en_triggers": ["good work", "thanks for your hard work", "you must be tired"],
+      "en_triggers": [
+        "good work",
+        "thanks for your hard work",
+        "you must be tired"
+      ],
       "tgt_span": "お疲れ様",
       "nuance_type": "politeness_stance",
       "en_frame": "thanks for effort",
@@ -64,7 +90,12 @@
     },
     {
       "id": "ja-enryo",
-      "en_triggers": ["restraint", "hold back", "don't impose", "hesitate to impose"],
+      "en_triggers": [
+        "restraint",
+        "hold back",
+        "don't impose",
+        "hesitate to impose"
+      ],
       "tgt_span": "遠慮",
       "nuance_type": "politeness_stance",
       "en_frame": "polite hesitation",
@@ -74,7 +105,11 @@
     },
     {
       "id": "ja-majime",
-      "en_triggers": ["serious", "earnest", "diligent"],
+      "en_triggers": [
+        "serious",
+        "earnest",
+        "diligent"
+      ],
       "tgt_span": "真面目",
       "nuance_type": "self_other",
       "en_frame": "not joking / grave",
@@ -84,7 +119,12 @@
     },
     {
       "id": "ja-gaman",
-      "en_triggers": ["endurance", "put up with it", "grin and bear it", "patience"],
+      "en_triggers": [
+        "endurance",
+        "put up with it",
+        "grin and bear it",
+        "patience"
+      ],
       "tgt_span": "我慢",
       "nuance_type": "self_other",
       "en_frame": "patience under inconvenience",
@@ -94,7 +134,11 @@
     },
     {
       "id": "ja-ikigai",
-      "en_triggers": ["life purpose", "reason for living", "what gets you up"],
+      "en_triggers": [
+        "life purpose",
+        "reason for living",
+        "what gets you up"
+      ],
       "tgt_span": "生きがい",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "purpose / passion",
@@ -104,7 +148,12 @@
     },
     {
       "id": "ja-komorebi",
-      "en_triggers": ["sunlight through leaves", "dappled light in trees"],
+      "en_triggers": [
+        "sunlight through leaves",
+        "dappled light in trees",
+        "sunlight filtering through the",
+        "komorebi"
+      ],
       "tgt_span": "木漏れ日",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "sunlight in a forest",
@@ -114,7 +163,16 @@
     },
     {
       "id": "ja-shibui",
-      "en_triggers": ["understated", "austere beauty", "subtle taste"],
+      "en_triggers": [
+        "understated",
+        "austere beauty",
+        "subtle taste",
+        "elegant",
+        "refined",
+        "and tastefully quiet",
+        "not brash",
+        "shibui"
+      ],
       "tgt_span": "渋い",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "subtle / muted style",
@@ -124,7 +182,11 @@
     },
     {
       "id": "ja-itadakimasu",
-      "en_triggers": ["thanks for the food", "let's eat", "I humbly receive"],
+      "en_triggers": [
+        "thanks for the food",
+        "let's eat",
+        "I humbly receive"
+      ],
       "tgt_span": "いただきます",
       "nuance_type": "politeness_stance",
       "en_frame": "pre-meal thanks",
@@ -134,7 +196,11 @@
     },
     {
       "id": "ja-mottainai",
-      "en_triggers": ["what a waste", "too good to waste", "wasteful"],
+      "en_triggers": [
+        "what a waste",
+        "too good to waste",
+        "wasteful"
+      ],
       "tgt_span": "もったいない",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "regret about waste",
@@ -144,7 +210,11 @@
     },
     {
       "id": "ja-sempai-kohai",
-      "en_triggers": ["senior", "junior", "mentor junior hierarchy"],
+      "en_triggers": [
+        "senior",
+        "junior",
+        "mentor junior hierarchy"
+      ],
       "tgt_span": "先輩/後輩",
       "nuance_type": "institutional_legal",
       "en_frame": "more experienced colleague",
@@ -154,7 +224,13 @@
     },
     {
       "id": "ja-kaizen",
-      "en_triggers": ["continuous improvement", "incremental improvement"],
+      "en_triggers": [
+        "continuous improvement",
+        "incremental improvement",
+        "betterment",
+        "improvement",
+        "kaizen"
+      ],
       "tgt_span": "改善",
       "nuance_type": "institutional_legal",
       "en_frame": "process improvement buzzword",
@@ -164,7 +240,10 @@
     },
     {
       "id": "ja-omotenashi",
-      "en_triggers": ["hospitality", "wholehearted hospitality"],
+      "en_triggers": [
+        "hospitality",
+        "wholehearted hospitality"
+      ],
       "tgt_span": "おもてなし",
       "nuance_type": "politeness_stance",
       "en_frame": "good customer service",
@@ -174,7 +253,11 @@
     },
     {
       "id": "ja-shoganai",
-      "en_triggers": ["it can't be helped", "nothing you can do", "it is what it is"],
+      "en_triggers": [
+        "it can't be helped",
+        "nothing you can do",
+        "it is what it is"
+      ],
       "tgt_span": "しょうがない",
       "nuance_type": "self_other",
       "en_frame": "resignation / acceptance",
@@ -184,7 +267,11 @@
     },
     {
       "id": "ja-ganbaru",
-      "en_triggers": ["do your best", "hang in there", "keep at it"],
+      "en_triggers": [
+        "do your best",
+        "hang in there",
+        "keep at it"
+      ],
       "tgt_span": "頑張る",
       "nuance_type": "self_other",
       "en_frame": "encouragement to try hard",
@@ -194,7 +281,11 @@
     },
     {
       "id": "ja-uchi-soto",
-      "en_triggers": ["in-group", "out-group", "insiders and outsiders"],
+      "en_triggers": [
+        "in-group",
+        "out-group",
+        "insiders and outsiders"
+      ],
       "tgt_span": "内/外",
       "nuance_type": "self_other",
       "en_frame": "us vs them",
@@ -204,7 +295,11 @@
     },
     {
       "id": "ja-nemawashi",
-      "en_triggers": ["lay the groundwork", "consensus building beforehand", "pre-meeting alignment"],
+      "en_triggers": [
+        "lay the groundwork",
+        "consensus building beforehand",
+        "pre-meeting alignment"
+      ],
       "tgt_span": "根回し",
       "nuance_type": "institutional_legal",
       "en_frame": "lobby before the meeting",
@@ -214,7 +309,11 @@
     },
     {
       "id": "ja-wabi-sabi",
-      "en_triggers": ["rustic beauty", "beauty of imperfection", "weathered beauty"],
+      "en_triggers": [
+        "rustic beauty",
+        "beauty of imperfection",
+        "weathered beauty"
+      ],
       "tgt_span": "侘寂",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "imperfect aesthetics",
@@ -224,7 +323,10 @@
     },
     {
       "id": "ja-jiyuu",
-      "en_triggers": ["freedom", "liberty"],
+      "en_triggers": [
+        "freedom",
+        "liberty"
+      ],
       "tgt_span": "自由",
       "nuance_type": "political_social",
       "en_frame": "individual liberty",
@@ -234,7 +336,11 @@
     },
     {
       "id": "ja-en",
-      "en_triggers": ["fateful connection", "destiny bond", "deep connection"],
+      "en_triggers": [
+        "fateful connection",
+        "destiny bond",
+        "deep connection"
+      ],
       "tgt_span": "縁",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "relationship / networking",
@@ -244,13 +350,969 @@
     },
     {
       "id": "ja-kawaii",
-      "en_triggers": ["cute", "adorable"],
+      "en_triggers": [
+        "cute",
+        "adorable"
+      ],
       "tgt_span": "可愛い",
       "nuance_type": "affect_atmosphere",
       "en_frame": "cute appearance",
       "target_frame": "kawaii: expansive aesthetic/social category beyond childlike cute",
       "explanation": "Kawaii saturates aesthetics and social evaluation more widely than English 'cute'.",
       "evidence": "Yomota Inuhiko; cultural studies of kawaii."
+    },
+    {
+      "id": "ja-uwd-age-otori",
+      "en_triggers": [
+        "bad haircut",
+        "age-otori"
+      ],
+      "tgt_span": "上げ劣り",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The bad feeling one gets after a terrible haircut",
+      "target_frame": "Japanese lexical package: age-otori (上げ劣り)",
+      "explanation": "English paraphrases what Japanese packs into 'age-otori' (上げ劣り). The bad feeling one gets after a terrible haircut",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-amaeru",
+      "en_triggers": [
+        "immaturely catch sb's attention",
+        "amaeru"
+      ],
+      "tgt_span": "甘える",
+      "nuance_type": "self_other",
+      "en_frame": "To seek affection and care through doing things like clinging or pleading",
+      "target_frame": "Japanese lexical package: amaeru (甘える)",
+      "explanation": "English paraphrases what Japanese packs into 'amaeru' (甘える). To seek affection and care through doing things like clinging or pleading",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-amagami",
+      "en_triggers": [
+        "play-biting",
+        "nibble",
+        "fake bite",
+        "simulated bite",
+        "amagami"
+      ],
+      "tgt_span": "甘噛み",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Gentle chewing without the purpose of biting or chewing. It is often used by animals to play or express affection.",
+      "target_frame": "Japanese lexical package: amagami (甘噛み)",
+      "explanation": "English paraphrases what Japanese packs into 'amagami' (甘噛み). Gentle chewing without the purpose of biting or chewing. It is often used by animals to play or express affection.",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-arigata-meiwaku",
+      "en_triggers": [
+        "unwelcome favour",
+        "arigata-meiwaku"
+      ],
+      "tgt_span": "ありがた迷惑",
+      "nuance_type": "self_other",
+      "en_frame": "When someone does something for you that you didn’t want them to do, and having to express gratitude for the act",
+      "target_frame": "Japanese lexical package: arigata-meiwaku (ありがた迷惑)",
+      "explanation": "English paraphrases what Japanese packs into 'arigata-meiwaku' (ありがた迷惑). When someone does something for you that you didn’t want them to do, and having to express gratitude for the act",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-bakkushan",
+      "en_triggers": [
+        "woman's fine rear-end",
+        "butterface",
+        "bakkushan"
+      ],
+      "tgt_span": "バックシャン",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A girl looking great when seen from behind",
+      "target_frame": "Japanese lexical package: bakkushan (バックシャン)",
+      "explanation": "English paraphrases what Japanese packs into 'bakkushan' (バックシャン). A girl looking great when seen from behind",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-betsubara",
+      "en_triggers": [
+        "woman's extra stomach for desserts",
+        "hollow legs",
+        "betsubara"
+      ],
+      "tgt_span": "べつばら/別腹",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A woman who always has room for dessert",
+      "target_frame": "Japanese lexical package: betsubara (べつばら/別腹)",
+      "explanation": "English paraphrases what Japanese packs into 'betsubara' (べつばら/別腹). A woman who always has room for dessert",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-bimyou-na",
+      "en_triggers": [
+        "not great",
+        "iffy",
+        "doubtful",
+        "bimyou (na)"
+      ],
+      "tgt_span": "微妙(な)/ビミョー(な)",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Not bad, or \"meh\"",
+      "target_frame": "Japanese lexical package: bimyou (na) (微妙(な)/ビミョー(な))",
+      "explanation": "English paraphrases what Japanese packs into 'bimyou (na)' (微妙(な)/ビミョー(な)). Not bad, or \"meh\"",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-bimyou-na",
+      "en_triggers": [
+        "subtle",
+        "fine",
+        "elusive",
+        "difficult",
+        "complex",
+        "bimyou (na)"
+      ],
+      "tgt_span": "微妙(な)",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Difficult to detect or grasp by the mind or analyse",
+      "target_frame": "Japanese lexical package: bimyou (na) (微妙(な))",
+      "explanation": "English paraphrases what Japanese packs into 'bimyou (na)' (微妙(な)). Difficult to detect or grasp by the mind or analyse",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-boketto",
+      "en_triggers": [
+        "absent-mindedly",
+        "idly",
+        "vacantly",
+        "boketto"
+      ],
+      "tgt_span": "ぼけっと",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The act of gazing or staring vacantly into the distance without thinking or sense of self",
+      "target_frame": "Japanese lexical package: boketto (ぼけっと)",
+      "explanation": "English paraphrases what Japanese packs into 'boketto' (ぼけっと). The act of gazing or staring vacantly into the distance without thinking or sense of self",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-chind-gu",
+      "en_triggers": [
+        "useless gadget",
+        "chindōgu"
+      ],
+      "tgt_span": "珍道具",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The art of inventing ingenious everyday gadgets that seem like an ideal solution to a particular problem, but are in fact nothing more than silly, useless gadgets",
+      "target_frame": "Japanese lexical package: chindōgu (珍道具)",
+      "explanation": "English paraphrases what Japanese packs into 'chindōgu' (珍道具). The art of inventing ingenious everyday gadgets that seem like an ideal solution to a particular problem, but are in fact nothing more than silly, useless gadgets",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-dasoku",
+      "en_triggers": [
+        "snake's legs",
+        "dasoku ",
+        "redundancy",
+        "superfluity",
+        "useless addition",
+        "dasoku (no)"
+      ],
+      "tgt_span": "蛇足",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Snake legs",
+      "target_frame": "Japanese lexical package: dasoku  (蛇足)",
+      "explanation": "English paraphrases what Japanese packs into 'dasoku ' (蛇足). Snake legs",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-eshaj-ri",
+      "en_triggers": [
+        "those who meet must part",
+        "people meet",
+        "always part\".",
+        "eshajōri"
+      ],
+      "tgt_span": "会者定離",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The concept that expresses the idea of impermanence of all things, that every human relationship will end someday due to the transient nature of life",
+      "target_frame": "Japanese lexical package: eshajōri (会者定離)",
+      "explanation": "English paraphrases what Japanese packs into 'eshajōri' (会者定離). The concept that expresses the idea of impermanence of all things, that every human relationship will end someday due to the transient nature of life",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-eshaku",
+      "en_triggers": [
+        "slight bow",
+        "nod",
+        "eshaku"
+      ],
+      "tgt_span": "会釈",
+      "nuance_type": "political_social",
+      "en_frame": "A slight bow of around 15 degrees as a greeting or sign of gratitude",
+      "target_frame": "Japanese lexical package: eshaku (会釈)",
+      "explanation": "English paraphrases what Japanese packs into 'eshaku' (会釈). A slight bow of around 15 degrees as a greeting or sign of gratitude",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-fuubutsushi",
+      "en_triggers": [
+        "seasonal feature",
+        "fuubutsushi"
+      ],
+      "tgt_span": "風​物​詩",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The things – feelings, scents, images – that evoke memories or the upcoming of a particular season and/or area, region, country",
+      "target_frame": "Japanese lexical package: fuubutsushi (風​物​詩)",
+      "explanation": "English paraphrases what Japanese packs into 'fuubutsushi' (風​物​詩). The things – feelings, scents, images – that evoke memories or the upcoming of a particular season and/or area, region, country",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-hikikomori",
+      "en_triggers": [
+        "a reclusive",
+        "an antisocial",
+        "a homebody",
+        "hikikomori"
+      ],
+      "tgt_span": "引きこもり",
+      "nuance_type": "self_other",
+      "en_frame": "Reclusive adolescents or adults who withdraw from social life, often seeking extreme degrees of isolation and confinement and obsessed with TV, videogames, the internet",
+      "target_frame": "Japanese lexical package: hikikomori (引きこもり)",
+      "explanation": "English paraphrases what Japanese packs into 'hikikomori' (引きこもり). Reclusive adolescents or adults who withdraw from social life, often seeking extreme degrees of isolation and confinement and obsessed with TV, videogames, the internet",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-honne",
+      "en_triggers": [
+        "real intention",
+        "motive",
+        "true opinion",
+        "what one really thinks",
+        "honne"
+      ],
+      "tgt_span": "本音  ",
+      "nuance_type": "self_other",
+      "en_frame": "A person's true feelings and desires, often kept secret or shared only with the closest friends ",
+      "target_frame": "Japanese lexical package: honne (本音  )",
+      "explanation": "English paraphrases what Japanese packs into 'honne' (本音  ). A person's true feelings and desires, often kept secret or shared only with the closest friends ",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-ikigai",
+      "en_triggers": [
+        "purpose of life",
+        "ikigai"
+      ],
+      "tgt_span": "生き甲斐",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A reason for being; the thing that gets you up in the morning.",
+      "target_frame": "Japanese lexical package: ikigai (生き甲斐)",
+      "explanation": "English paraphrases what Japanese packs into 'ikigai' (生き甲斐). A reason for being; the thing that gets you up in the morning.",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-irusu",
+      "en_triggers": [
+        "pretending to be out",
+        "irusu"
+      ],
+      "tgt_span": "居留守",
+      "nuance_type": "self_other",
+      "en_frame": "Pretending to be out when someone knocks at your door",
+      "target_frame": "Japanese lexical package: irusu (居留守)",
+      "explanation": "English paraphrases what Japanese packs into 'irusu' (居留守). Pretending to be out when someone knocks at your door",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-jibaku",
+      "en_triggers": [
+        "the act of unintentionally",
+        "jibaku"
+      ],
+      "tgt_span": "自縛",
+      "nuance_type": "self_other",
+      "en_frame": "The act of unintentionally or inadvertently demolishing your own argument in the process of defending your view",
+      "target_frame": "Japanese lexical package: jibaku (自縛)",
+      "explanation": "English paraphrases what Japanese packs into 'jibaku' (自縛). The act of unintentionally or inadvertently demolishing your own argument in the process of defending your view",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-jibaku",
+      "en_triggers": [
+        "self-destruction",
+        "self-explosion",
+        "blowing oneself up",
+        "jibaku"
+      ],
+      "tgt_span": "自爆",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The act of doing away with oneself or itself",
+      "target_frame": "Japanese lexical package: jibaku (自爆)",
+      "explanation": "English paraphrases what Japanese packs into 'jibaku' (自爆). The act of doing away with oneself or itself",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kar-shi",
+      "en_triggers": [
+        "death from overworking",
+        "karōshi"
+      ],
+      "tgt_span": "過労死",
+      "nuance_type": "political_social",
+      "en_frame": "Death from overworking",
+      "target_frame": "Japanese lexical package: karōshi (過労死)",
+      "explanation": "English paraphrases what Japanese packs into 'karōshi' (過労死). Death from overworking",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kensh",
+      "en_triggers": [
+        "self-awareness and self-consciousness",
+        "kenshō"
+      ],
+      "tgt_span": "見性",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Seeing (\"ken\") one’s nature or essence (\"shō\") ",
+      "target_frame": "Japanese lexical package: kenshō (見性)",
+      "explanation": "English paraphrases what Japanese packs into 'kenshō' (見性). Seeing (\"ken\") one’s nature or essence (\"shō\") ",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kintsukuroi",
+      "en_triggers": [
+        "the art of repairing",
+        "kintsukuroi"
+      ],
+      "tgt_span": "金繕い",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The art of repairing with gold",
+      "target_frame": "Japanese lexical package: kintsukuroi (金繕い)",
+      "explanation": "English paraphrases what Japanese packs into 'kintsukuroi' (金繕い). The art of repairing with gold",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kogarashi",
+      "en_triggers": [
+        "wintry wind",
+        "kogarashi"
+      ],
+      "tgt_span": "木枯らし",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The first cold wintry wind announcing winter's arrrival",
+      "target_frame": "Japanese lexical package: kogarashi (木枯らし)",
+      "explanation": "English paraphrases what Japanese packs into 'kogarashi' (木枯らし). The first cold wintry wind announcing winter's arrrival",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kuchisabishii",
+      "en_triggers": [
+        "not being hungry but",
+        "kuchisabishii"
+      ],
+      "tgt_span": "口寂しい",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Not being hungry but eating because one's mouth feels lonely",
+      "target_frame": "Japanese lexical package: kuchisabishii (口寂しい)",
+      "explanation": "English paraphrases what Japanese packs into 'kuchisabishii' (口寂しい). Not being hungry but eating because one's mouth feels lonely",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kuebiko",
+      "en_triggers": [
+        "a state of exhaustion",
+        "kuebiko"
+      ],
+      "tgt_span": "くえびこ",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "A state of exhaustion inspired by acts of senseless violence",
+      "target_frame": "Japanese lexical package: kuebiko (くえびこ)",
+      "explanation": "English paraphrases what Japanese packs into 'kuebiko' (くえびこ). A state of exhaustion inspired by acts of senseless violence",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kuebiko",
+      "en_triggers": [
+        "the shinto deity of",
+        "kuebiko"
+      ],
+      "tgt_span": "久延毘古",
+      "nuance_type": "institutional_legal",
+      "en_frame": "The Shinto deity of knowledge and agriculture. He is a scarecrow and cannot can’t move, but has comprehensive awareness of the world.",
+      "target_frame": "Japanese lexical package: kuebiko (久延毘古)",
+      "explanation": "English paraphrases what Japanese packs into 'kuebiko' (久延毘古). The Shinto deity of knowledge and agriculture. He is a scarecrow and cannot can’t move, but has comprehensive awareness of the world.",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kuidaore",
+      "en_triggers": [
+        "to bring ruin upon",
+        "kuidaore"
+      ],
+      "tgt_span": "食い倒れ",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "To bring ruin upon oneself by extravagance in food",
+      "target_frame": "Japanese lexical package: kuidaore (食い倒れ)",
+      "explanation": "English paraphrases what Japanese packs into 'kuidaore' (食い倒れ). To bring ruin upon oneself by extravagance in food",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kusukusu",
+      "en_triggers": [
+        "cuckle",
+        "giggle",
+        "kusukusu"
+      ],
+      "tgt_span": "くすくす",
+      "nuance_type": "self_other",
+      "en_frame": "The suppressed giggling and tittering of a group of women",
+      "target_frame": "Japanese lexical package: kusukusu (くすくす)",
+      "explanation": "English paraphrases what Japanese packs into 'kusukusu' (くすくす). The suppressed giggling and tittering of a group of women",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kusukusu",
+      "en_triggers": [
+        "a spicy dish that",
+        "kusukusu"
+      ],
+      "tgt_span": "クスクス",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A spicy dish that originated in northern Africa",
+      "target_frame": "Japanese lexical package: kusukusu (クスクス)",
+      "explanation": "English paraphrases what Japanese packs into 'kusukusu' (クスクス). A spicy dish that originated in northern Africa",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-kyoiku-mama",
+      "en_triggers": [
+        "educational mother",
+        "helicopter parent",
+        "kyoiku mama"
+      ],
+      "tgt_span": "教育ママ",
+      "nuance_type": "self_other",
+      "en_frame": "A woman who is obsessed with the education of her children",
+      "target_frame": "Japanese lexical package: kyoiku mama (教育ママ)",
+      "explanation": "English paraphrases what Japanese packs into 'kyoiku mama' (教育ママ). A woman who is obsessed with the education of her children",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-miren-na",
+      "en_triggers": [
+        "lingering attachment",
+        "lingering affection",
+        "regret",
+        "reluctance",
+        "ruefulness",
+        "miren (na)"
+      ],
+      "tgt_span": "未練(な)",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "The feeling of nostalgia and regret inevitably experienced just like the end of a love relationship, but silently and quietly accepted ",
+      "target_frame": "Japanese lexical package: miren (na) (未練(な))",
+      "explanation": "English paraphrases what Japanese packs into 'miren (na)' (未練(な)). The feeling of nostalgia and regret inevitably experienced just like the end of a love relationship, but silently and quietly accepted ",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-mono-no-aware",
+      "en_triggers": [
+        "pathos of things",
+        "strong aesthetic sense",
+        "mono no aware"
+      ],
+      "tgt_span": "物の哀れ",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Appreciation of the fleeting nature of beauty",
+      "target_frame": "Japanese lexical package: mono no aware (物の哀れ)",
+      "explanation": "English paraphrases what Japanese packs into 'mono no aware' (物の哀れ). Appreciation of the fleeting nature of beauty",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-mu",
+      "en_triggers": [
+        "nothing",
+        "mu"
+      ],
+      "tgt_span": "無-",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Not one, not zero, 1でもなく0でもなく、イエスでもなくノーでもなくnot yes, not no",
+      "target_frame": "Japanese lexical package: mu (無-)",
+      "explanation": "English paraphrases what Japanese packs into 'mu' (無-). Not one, not zero, 1でもなく0でもなく、イエスでもなくノーでもなくnot yes, not no",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-mu",
+      "en_triggers": [
+        "in zen buddhism",
+        "mu"
+      ],
+      "tgt_span": "無",
+      "nuance_type": "institutional_legal",
+      "en_frame": "In Zen Buddhism, the pure state of consciousness before any experiences or knowledge has been acquired. It is a state where absolutely no things or phenomena exist",
+      "target_frame": "Japanese lexical package: mu (無)",
+      "explanation": "English paraphrases what Japanese packs into 'mu' (無). In Zen Buddhism, the pure state of consciousness before any experiences or knowledge has been acquired. It is a state where absolutely no things or phenomena exist",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-nekama",
+      "en_triggers": [
+        "a man who pretends",
+        "nekama"
+      ],
+      "tgt_span": "ネ釜 / ネカマ",
+      "nuance_type": "self_other",
+      "en_frame": "A man who pretends to be a woman on the internet",
+      "target_frame": "Japanese lexical package: nekama (ネ釜 / ネカマ)",
+      "explanation": "English paraphrases what Japanese packs into 'nekama' (ネ釜 / ネカマ). A man who pretends to be a woman on the internet",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-nekojita",
+      "en_triggers": [
+        "cat",
+        "nekojita"
+      ],
+      "tgt_span": "猫舌",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "cat's tongue",
+      "target_frame": "Japanese lexical package: nekojita (猫舌)",
+      "explanation": "English paraphrases what Japanese packs into 'nekojita' (猫舌). cat's tongue",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-niito-onna",
+      "en_triggers": [
+        "a woman so much",
+        "niito-onna"
+      ],
+      "tgt_span": "ニート女",
+      "nuance_type": "political_social",
+      "en_frame": "A woman so much dedicated to her career that she has no time to iron blouses, so dresses only in knitted tops.",
+      "target_frame": "Japanese lexical package: niito-onna (ニート女)",
+      "explanation": "English paraphrases what Japanese packs into 'niito-onna' (ニート女). A woman so much dedicated to her career that she has no time to iron blouses, so dresses only in knitted tops.",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-nintend",
+      "en_triggers": [
+        "the temple of free",
+        "nintendō"
+      ],
+      "tgt_span": "任天堂",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The temple of free hanafuda (Japanese playing cards)",
+      "target_frame": "Japanese lexical package: nintendō (任天堂)",
+      "explanation": "English paraphrases what Japanese packs into 'nintendō' (任天堂). The temple of free hanafuda (Japanese playing cards)",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-nintend",
+      "en_triggers": [
+        "the japanese multinational company",
+        "nintendō"
+      ],
+      "tgt_span": "任天堂株式会社",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The Japanese multinational company of videogames and entertainment",
+      "target_frame": "Japanese lexical package: nintendō (任天堂株式会社)",
+      "explanation": "English paraphrases what Japanese packs into 'nintendō' (任天堂株式会社). The Japanese multinational company of videogames and entertainment",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-nommunication-nomication",
+      "en_triggers": [
+        "after-five drinking events",
+        "nommunication / nomication"
+      ],
+      "tgt_span": "ノミュニケーション / 飲みニケーション",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Communication while drinking",
+      "target_frame": "Japanese lexical package: nommunication / nomication (ノミュニケーション / 飲みニケーション)",
+      "explanation": "English paraphrases what Japanese packs into 'nommunication / nomication' (ノミュニケーション / 飲みニケーション). Communication while drinking",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-norokeru",
+      "en_triggers": [
+        "to brag about or",
+        "norokeru"
+      ],
+      "tgt_span": "惚気る",
+      "nuance_type": "self_other",
+      "en_frame": "To brag about or sing the praises of the person you love",
+      "target_frame": "Japanese lexical package: norokeru (惚気る)",
+      "explanation": "English paraphrases what Japanese packs into 'norokeru' (惚気る). To brag about or sing the praises of the person you love",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-on",
+      "en_triggers": [
+        "favour",
+        "favor",
+        "obligation",
+        "debt of gratitude",
+        "on "
+      ],
+      "tgt_span": "恩",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "A feeling of moral indebtedness, relating to a favour or blessing given by others.",
+      "target_frame": "Japanese lexical package: on  (恩)",
+      "explanation": "English paraphrases what Japanese packs into 'on ' (恩). A feeling of moral indebtedness, relating to a favour or blessing given by others.",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-pekopeko",
+      "en_triggers": [
+        "fawning",
+        "bowing repeatedly and scraping",
+        "being obsequious",
+        "being servile",
+        "pekopeko"
+      ],
+      "tgt_span": "ペコペコ",
+      "nuance_type": "self_other",
+      "en_frame": "Bowing one's head repeatedly in a grovelling manner",
+      "target_frame": "Japanese lexical package: pekopeko (ペコペコ)",
+      "explanation": "English paraphrases what Japanese packs into 'pekopeko' (ペコペコ). Bowing one's head repeatedly in a grovelling manner",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-pekopeko-na",
+      "en_triggers": [
+        "very hungry",
+        "starving",
+        "famished",
+        "pekopeko (na)"
+      ],
+      "tgt_span": "ペコペコ(な)",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Very hungry; starving; famished",
+      "target_frame": "Japanese lexical package: pekopeko (na) (ペコペコ(な))",
+      "explanation": "English paraphrases what Japanese packs into 'pekopeko (na)' (ペコペコ(な)). Very hungry; starving; famished",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-seijaku-na",
+      "en_triggers": [
+        "stillness",
+        "silence",
+        "quietness",
+        "seijaku(na)"
+      ],
+      "tgt_span": "静寂(な)",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Quiet (\"sei\") tranquillity (\"jaku\"): the silence, calm, serenity especially found in the midst of activity or chaos",
+      "target_frame": "Japanese lexical package: seijaku(na) (静寂(な))",
+      "explanation": "English paraphrases what Japanese packs into 'seijaku(na)' (静寂(な)). Quiet (\"sei\") tranquillity (\"jaku\"): the silence, calm, serenity especially found in the midst of activity or chaos",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-shinrin-yoku",
+      "en_triggers": [
+        "the mystical",
+        "shinrin-yoku"
+      ],
+      "tgt_span": "森林浴",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The mystical, metaphorical experience of diving into nature and the forest",
+      "target_frame": "Japanese lexical package: shinrin-yoku (森林浴)",
+      "explanation": "English paraphrases what Japanese packs into 'shinrin-yoku' (森林浴). The mystical, metaphorical experience of diving into nature and the forest",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-sh-ganai",
+      "en_triggers": [
+        "it cannot be helped",
+        "unavoidable",
+        "inevitable",
+        "(there's) nothing one can do",
+        "having no choice​",
+        "shōganai"
+      ],
+      "tgt_span": "仕様がない",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "To express acceptance of a bad inconsequential situation or defeatism by moving on and doing what is in one's own possibility",
+      "target_frame": "Japanese lexical package: shōganai (仕様がない)",
+      "explanation": "English paraphrases what Japanese packs into 'shōganai' (仕様がない). To express acceptance of a bad inconsequential situation or defeatism by moving on and doing what is in one's own possibility",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-shoshin",
+      "en_triggers": [
+        "beginner's mind",
+        "shoshin"
+      ],
+      "tgt_span": "初心",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "(Zen Buddhism) an attitude of openness, eagerness, and lack of preconceptions when studying a subject, even when studying at an advanced level, just as a beginner would",
+      "target_frame": "Japanese lexical package: shoshin (初心)",
+      "explanation": "English paraphrases what Japanese packs into 'shoshin' (初心). (Zen Buddhism) an attitude of openness, eagerness, and lack of preconceptions when studying a subject, even when studying at an advanced level, just as a beginner would",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-shoshinna",
+      "en_triggers": [
+        "inexperienced",
+        "immature",
+        "naive",
+        "gullible",
+        "innocent",
+        "unsophisticated"
+      ],
+      "tgt_span": "初心な",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Lacking practical experience or training",
+      "target_frame": "Japanese lexical package: shoshinna (初心な)",
+      "explanation": "English paraphrases what Japanese packs into 'shoshinna' (初心な). Lacking practical experience or training",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-s-kaiya",
+      "en_triggers": [
+        "professional extortionist",
+        "corporate bouncers",
+        "meeting-men",
+        "corporate blackmailers",
+        "sōkaiya"
+      ],
+      "tgt_span": "総会屋",
+      "nuance_type": "political_social",
+      "en_frame": "A man with a few shares in several companies who extorts money by threatening to come to the shareholders' meetings and cause trouble",
+      "target_frame": "Japanese lexical package: sōkaiya (総会屋)",
+      "explanation": "English paraphrases what Japanese packs into 'sōkaiya' (総会屋). A man with a few shares in several companies who extorts money by threatening to come to the shareholders' meetings and cause trouble",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-tachiyomi",
+      "en_triggers": [
+        "browsing in a bookshop",
+        "tachiyomi"
+      ],
+      "tgt_span": "立ち読み",
+      "nuance_type": "self_other",
+      "en_frame": "To stand in a bookstore and read a book without buying it",
+      "target_frame": "Japanese lexical package: tachiyomi (立ち読み)",
+      "explanation": "English paraphrases what Japanese packs into 'tachiyomi' (立ち読み). To stand in a bookstore and read a book without buying it",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-tatemae",
+      "en_triggers": [
+        "the ceremony for the",
+        "tatemae"
+      ],
+      "tgt_span": "建前",
+      "nuance_type": "political_social",
+      "en_frame": "The ceremony for the erection of a house framework ",
+      "target_frame": "Japanese lexical package: tatemae (建前)",
+      "explanation": "English paraphrases what Japanese packs into 'tatemae' (建前). The ceremony for the erection of a house framework ",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-tokimeki",
+      "en_triggers": [
+        "hearbeat",
+        "palpitation",
+        "throbbing",
+        "pounding",
+        "fluttering",
+        "tokimeki"
+      ],
+      "tgt_span": "ときめき",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "A feeling of excitement and bliss or joy from a discrete experience",
+      "target_frame": "Japanese lexical package: tokimeki (ときめき)",
+      "explanation": "English paraphrases what Japanese packs into 'tokimeki' (ときめき). A feeling of excitement and bliss or joy from a discrete experience",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-tsujigiri",
+      "en_triggers": [
+        "the killing of a",
+        "tsujigiri"
+      ],
+      "tgt_span": "辻斬り",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The killing of a passerby on the road at night, in order to test the sharpness of a sword, or to improve one’s skill.",
+      "target_frame": "Japanese lexical package: tsujigiri (辻斬り)",
+      "explanation": "English paraphrases what Japanese packs into 'tsujigiri' (辻斬り). The killing of a passerby on the road at night, in order to test the sharpness of a sword, or to improve one’s skill.",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-tsundoku",
+      "en_triggers": [
+        "stockpiling books",
+        "books bought but not read",
+        "tsundoku"
+      ],
+      "tgt_span": "積ん読",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The act of purchasing reading materials but letting them pile up in one's home without reading them",
+      "target_frame": "Japanese lexical package: tsundoku (積ん読)",
+      "explanation": "English paraphrases what Japanese packs into 'tsundoku' (積ん読). The act of purchasing reading materials but letting them pile up in one's home without reading them",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-ukiyo",
+      "en_triggers": [
+        "floating world",
+        "ukiyo"
+      ],
+      "tgt_span": "浮世 / 浮き世",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The fleeting existence, the transitory world",
+      "target_frame": "Japanese lexical package: ukiyo (浮世 / 浮き世)",
+      "explanation": "English paraphrases what Japanese packs into 'ukiyo' (浮世 / 浮き世). The fleeting existence, the transitory world",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-umami",
+      "en_triggers": [
+        "tastiness",
+        "savouriness",
+        "umami"
+      ],
+      "tgt_span": "旨み / 旨味",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A category of taste in food (besides sweet, sour, salt, and bitter) describing savouriness",
+      "target_frame": "Japanese lexical package: umami (旨み / 旨味)",
+      "explanation": "English paraphrases what Japanese packs into 'umami' (旨み / 旨味). A category of taste in food (besides sweet, sour, salt, and bitter) describing savouriness",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-uto-uto",
+      "en_triggers": [
+        "dozing off",
+        "nodding off",
+        "uto-uto"
+      ],
+      "tgt_span": "うとうと / ウトウト",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A state of half-sleeping in which you drift into a light sleep",
+      "target_frame": "Japanese lexical package: uto-uto (うとうと / ウトウト)",
+      "explanation": "English paraphrases what Japanese packs into 'uto-uto' (うとうと / ウトウト). A state of half-sleeping in which you drift into a light sleep",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-utsura-utsura",
+      "en_triggers": [
+        "drowsily",
+        "nodding off",
+        "utsura-utsura"
+      ],
+      "tgt_span": "うつらうつら / ウツラウツラ",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "To drift between sleep and wakefulness",
+      "target_frame": "Japanese lexical package: utsura-utsura (うつらうつら / ウツラウツラ)",
+      "explanation": "English paraphrases what Japanese packs into 'utsura-utsura' (うつらうつら / ウツラウツラ). To drift between sleep and wakefulness",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-wabi-sabi",
+      "en_triggers": [
+        "finding beauty within the",
+        "wabi-sabi"
+      ],
+      "tgt_span": "侘び寂び",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Finding beauty within the imperfections of life and peacefully accepting the natural cycle of growth and decay",
+      "target_frame": "Japanese lexical package: wabi-sabi (侘び寂び)",
+      "explanation": "English paraphrases what Japanese packs into 'wabi-sabi' (侘び寂び). Finding beauty within the imperfections of life and peacefully accepting the natural cycle of growth and decay",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-yoisho",
+      "en_triggers": [
+        "huff!",
+        "yo-heave-ho!",
+        "heigh-ho",
+        "yoisho"
+      ],
+      "tgt_span": "よいしょ",
+      "nuance_type": "institutional_legal",
+      "en_frame": "A word without meaning, said when flopping into a chair after a hard day at work or lifting a heavy bag.",
+      "target_frame": "Japanese lexical package: yoisho (よいしょ)",
+      "explanation": "English paraphrases what Japanese packs into 'yoisho' (よいしょ). A word without meaning, said when flopping into a chair after a hard day at work or lifting a heavy bag.",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-yokomeshi",
+      "en_triggers": [
+        "eating and doing something",
+        "yokomeshi"
+      ],
+      "tgt_span": "ヨコメシ/横メシ/横飯",
+      "nuance_type": "political_social",
+      "en_frame": "Eating and doing something else simultaneously (i.e., conversing in a foreign language while eating)",
+      "target_frame": "Japanese lexical package: yokomeshi (ヨコメシ/横メシ/横飯)",
+      "explanation": "English paraphrases what Japanese packs into 'yokomeshi' (ヨコメシ/横メシ/横飯). Eating and doing something else simultaneously (i.e., conversing in a foreign language while eating)",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-yokomeshi",
+      "en_triggers": [
+        "eating with foreigners",
+        "yokomeshi"
+      ],
+      "tgt_span": "ヨコメシ/横メシ",
+      "nuance_type": "political_social",
+      "en_frame": "Eating with foreigners",
+      "target_frame": "Japanese lexical package: yokomeshi (ヨコメシ/横メシ)",
+      "explanation": "English paraphrases what Japanese packs into 'yokomeshi' (ヨコメシ/横メシ). Eating with foreigners",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-yokomeshi",
+      "en_triggers": [
+        "western food",
+        "yokomeshi"
+      ],
+      "tgt_span": "ヨコメシ",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Western-style food",
+      "target_frame": "Japanese lexical package: yokomeshi (ヨコメシ)",
+      "explanation": "English paraphrases what Japanese packs into 'yokomeshi' (ヨコメシ). Western-style food",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-yokomeshi",
+      "en_triggers": [
+        "eating a meal with",
+        "yokomeshi"
+      ],
+      "tgt_span": "横飯",
+      "nuance_type": "political_social",
+      "en_frame": "Eating a meal with a peer ",
+      "target_frame": "Japanese lexical package: yokomeshi (横飯)",
+      "explanation": "English paraphrases what Japanese packs into 'yokomeshi' (横飯). Eating a meal with a peer ",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-y-gen",
+      "en_triggers": [
+        "deep",
+        "misteriously profound",
+        "unfathomable",
+        "yūgen"
+      ],
+      "tgt_span": "幽玄",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A profound, mysterious sense of the beauty of the universe along with the sad beauty of human suffering",
+      "target_frame": "Japanese lexical package: yūgen (幽玄)",
+      "explanation": "English paraphrases what Japanese packs into 'yūgen' (幽玄). A profound, mysterious sense of the beauty of the universe along with the sad beauty of human suffering",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "ja-uwd-zanshin",
+      "en_triggers": [
+        "alertness",
+        "readiness",
+        "being on guard",
+        "zanshin"
+      ],
+      "tgt_span": "残心",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A state of relaxed mental alertness (especially in the face of danger or stress)",
+      "target_frame": "Japanese lexical package: zanshin (残心)",
+      "explanation": "English paraphrases what Japanese packs into 'zanshin' (残心). A state of relaxed mental alertness (especially in the face of danger or stress)",
+      "evidence": "Koharu24 MyUWD Dataset Jpn + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
     }
   ]
 }

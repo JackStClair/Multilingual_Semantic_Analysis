@@ -16,7 +16,8 @@ Machine translation systems optimize lexical/semantic equivalence and fluency. T
 1. Seed lexicons compiled from linguistics and cultural studies references (see lexicon `sources` fields).
 2. Mini-contexts authored or adapted to host seed items naturally.
 3. Human annotation of spans, frames, explanations, and evidence.
-4. Train/val/test split by example id (no span leakage across splits).
+4. External expansion (v0.2): Koharu24 MyUWD DE/JA sheets + INK-USC untranslatability corpus (JA); see `data/external/SOURCES.md`. Imports are `confidence: medium`.
+5. Train/val/test split by source sentence (random) for v1 trainability.
 
 ## Recommended uses
 

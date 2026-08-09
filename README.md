@@ -45,6 +45,17 @@ See [`data/guidelines/`](data/guidelines/) for taxonomy, annotation guidelines, 
 
 Every retained span includes an `evidence` field (citation). LLM drafts are allowed only as proposals under human review.
 
+**External expansion** (see [`data/external/SOURCES.md`](data/external/SOURCES.md)):
+
+- [Koharu24 MyUWD](https://github.com/Koharu24/mBERT-Unaligned-fine-tuning-for-a-cross-lingual-RD-of-untranslatable-terms) DE/JA untranslatable-term sheets  
+- [INK-USC/untranslatability-corpus](https://huggingface.co/datasets/INK-USC/untranslatability-corpus) (CC BY 4.0) Japanese cultural rows  
+
+```bash
+python scripts/expand_from_external.py
+python -m training.prepare_data
+python -m training.train_span_classifier --epochs 20
+```
+
 ## Project layout
 
 ```

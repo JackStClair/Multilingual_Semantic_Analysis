@@ -1,10 +1,14 @@
 {
   "lang_pair": "en-de",
-  "version": "0.1.0",
+  "version": "0.2.0-external",
   "items": [
     {
       "id": "de-heimat",
-      "en_triggers": ["homeland", "home soil", "native home"],
+      "en_triggers": [
+        "homeland",
+        "home soil",
+        "native home"
+      ],
       "tgt_span": "Heimat",
       "nuance_type": "political_social",
       "en_frame": "country of origin / natal place",
@@ -14,7 +18,11 @@
     },
     {
       "id": "de-gemuetlichkeit",
-      "en_triggers": ["cozy", "coziness", "snug atmosphere"],
+      "en_triggers": [
+        "cozy",
+        "coziness",
+        "snug atmosphere"
+      ],
       "tgt_span": "Gemütlichkeit",
       "nuance_type": "affect_atmosphere",
       "en_frame": "physical comfort / snugness",
@@ -24,7 +32,11 @@
     },
     {
       "id": "de-bildung",
-      "en_triggers": ["education", "cultivation", "self-cultivation"],
+      "en_triggers": [
+        "education",
+        "cultivation",
+        "self-cultivation"
+      ],
       "tgt_span": "Bildung",
       "nuance_type": "institutional_legal",
       "en_frame": "schooling / skills acquisition",
@@ -34,7 +46,10 @@
     },
     {
       "id": "de-freiheit",
-      "en_triggers": ["freedom", "liberty"],
+      "en_triggers": [
+        "freedom",
+        "liberty"
+      ],
       "tgt_span": "Freiheit",
       "nuance_type": "political_social",
       "en_frame": "individual rights / non-interference (esp. liberty)",
@@ -44,7 +59,11 @@
     },
     {
       "id": "de-schuld",
-      "en_triggers": ["guilt", "fault", "blame"],
+      "en_triggers": [
+        "guilt",
+        "fault",
+        "blame"
+      ],
       "tgt_span": "Schuld",
       "nuance_type": "self_other",
       "en_frame": "moral culpability of the individual",
@@ -54,7 +73,13 @@
     },
     {
       "id": "de-sehnsucht",
-      "en_triggers": ["longing", "yearning", "deep longing"],
+      "en_triggers": [
+        "longing",
+        "yearning",
+        "deep longing",
+        "pining",
+        "nostalgia"
+      ],
       "tgt_span": "Sehnsucht",
       "nuance_type": "affect_atmosphere",
       "en_frame": "desire for something absent",
@@ -64,7 +89,11 @@
     },
     {
       "id": "de-weltschmerz",
-      "en_triggers": ["world-weariness", "world weariness", "existential weariness"],
+      "en_triggers": [
+        "world-weariness",
+        "world weariness",
+        "existential weariness"
+      ],
       "tgt_span": "Weltschmerz",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "tiredness of life circumstances",
@@ -74,7 +103,11 @@
     },
     {
       "id": "de-schadenfreude",
-      "en_triggers": ["joy at misfortune", "pleasure at others' pain", "gloating"],
+      "en_triggers": [
+        "joy at misfortune",
+        "pleasure at others' pain",
+        "gloating"
+      ],
       "tgt_span": "Schadenfreude",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "gloating / mean pleasure",
@@ -84,7 +117,11 @@
     },
     {
       "id": "de-duzen",
-      "en_triggers": ["use first names", "be on familiar terms", "switch to informal address"],
+      "en_triggers": [
+        "use first names",
+        "be on familiar terms",
+        "switch to informal address"
+      ],
       "tgt_span": "duzen",
       "nuance_type": "politeness_stance",
       "en_frame": "informal friendliness",
@@ -94,7 +131,11 @@
     },
     {
       "id": "de-siezen",
-      "en_triggers": ["formal address", "use formal you", "keep formal distance"],
+      "en_triggers": [
+        "formal address",
+        "use formal you",
+        "keep formal distance"
+      ],
       "tgt_span": "Siezen",
       "nuance_type": "politeness_stance",
       "en_frame": "polite distance",
@@ -104,7 +145,11 @@
     },
     {
       "id": "de-beruf",
-      "en_triggers": ["profession", "vocation", "calling"],
+      "en_triggers": [
+        "profession",
+        "vocation",
+        "calling"
+      ],
       "tgt_span": "Beruf",
       "nuance_type": "institutional_legal",
       "en_frame": "job / career track",
@@ -114,7 +159,11 @@
     },
     {
       "id": "de-angst",
-      "en_triggers": ["anxiety", "dread", "existential anxiety"],
+      "en_triggers": [
+        "anxiety",
+        "dread",
+        "existential anxiety"
+      ],
       "tgt_span": "Angst",
       "nuance_type": "affect_atmosphere",
       "en_frame": "clinical or situational anxiety",
@@ -124,7 +173,11 @@
     },
     {
       "id": "de-fernweh",
-      "en_triggers": ["wanderlust", "itch to travel", "desire to be elsewhere"],
+      "en_triggers": [
+        "wanderlust",
+        "itch to travel",
+        "desire to be elsewhere"
+      ],
       "tgt_span": "Fernweh",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "desire to travel",
@@ -134,7 +187,10 @@
     },
     {
       "id": "de-heimweh",
-      "en_triggers": ["homesickness", "homesick"],
+      "en_triggers": [
+        "homesickness",
+        "homesick"
+      ],
       "tgt_span": "Heimweh",
       "nuance_type": "affect_atmosphere",
       "en_frame": "missing home comforts",
@@ -144,7 +200,11 @@
     },
     {
       "id": "de-ordnung",
-      "en_triggers": ["order", "orderliness", "keeping order"],
+      "en_triggers": [
+        "order",
+        "orderliness",
+        "keeping order"
+      ],
       "tgt_span": "Ordnung",
       "nuance_type": "institutional_legal",
       "en_frame": "neat arrangement",
@@ -154,7 +214,10 @@
     },
     {
       "id": "de-pflicht",
-      "en_triggers": ["duty", "obligation"],
+      "en_triggers": [
+        "duty",
+        "obligation"
+      ],
       "tgt_span": "Pflicht",
       "nuance_type": "institutional_legal",
       "en_frame": "task one must do",
@@ -164,7 +227,11 @@
     },
     {
       "id": "de-geist",
-      "en_triggers": ["mind", "spirit", "intellect"],
+      "en_triggers": [
+        "mind",
+        "spirit",
+        "intellect"
+      ],
       "tgt_span": "Geist",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "mind as cognitive faculty OR spirit as supernatural",
@@ -174,7 +241,11 @@
     },
     {
       "id": "de-mitdenken",
-      "en_triggers": ["think along", "anticipate needs", "think ahead with others"],
+      "en_triggers": [
+        "think along",
+        "anticipate needs",
+        "think ahead with others"
+      ],
       "tgt_span": "mitdenken",
       "nuance_type": "self_other",
       "en_frame": "be proactive",
@@ -184,7 +255,11 @@
     },
     {
       "id": "de-fingerspitzengefuehl",
-      "en_triggers": ["tact", "intuition", "delicate intuition"],
+      "en_triggers": [
+        "tact",
+        "intuition",
+        "delicate intuition"
+      ],
       "tgt_span": "Fingerspitzengefühl",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "tactfulness",
@@ -194,7 +269,11 @@
     },
     {
       "id": "de-geborgenheit",
-      "en_triggers": ["security", "feeling safe", "safe belonging"],
+      "en_triggers": [
+        "security",
+        "feeling safe",
+        "safe belonging"
+      ],
       "tgt_span": "Geborgenheit",
       "nuance_type": "affect_atmosphere",
       "en_frame": "safety / security",
@@ -204,7 +283,11 @@
     },
     {
       "id": "de-verschmitzt",
-      "en_triggers": ["mischievous", "knowing smile", "impish"],
+      "en_triggers": [
+        "mischievous",
+        "knowing smile",
+        "impish"
+      ],
       "tgt_span": "verschmitzt",
       "nuance_type": "affect_atmosphere",
       "en_frame": "naughty humor",
@@ -214,7 +297,11 @@
     },
     {
       "id": "de-leitkultur",
-      "en_triggers": ["lead culture", "core culture", "dominant culture"],
+      "en_triggers": [
+        "lead culture",
+        "core culture",
+        "dominant culture"
+      ],
       "tgt_span": "Leitkultur",
       "nuance_type": "political_social",
       "en_frame": "mainstream culture",
@@ -224,7 +311,10 @@
     },
     {
       "id": "de-vergangenheitsbewaeltigung",
-      "en_triggers": ["coming to terms with the past", "working through the past"],
+      "en_triggers": [
+        "coming to terms with the past",
+        "working through the past"
+      ],
       "tgt_span": "Vergangenheitsbewältigung",
       "nuance_type": "political_social",
       "en_frame": "historical reckoning in general",
@@ -234,7 +324,11 @@
     },
     {
       "id": "de-buergerlich",
-      "en_triggers": ["middle-class", "bourgeois", "respectable middle-class"],
+      "en_triggers": [
+        "middle-class",
+        "bourgeois",
+        "respectable middle-class"
+      ],
       "tgt_span": "bürgerlich",
       "nuance_type": "political_social",
       "en_frame": "socioeconomic middle class",
@@ -244,13 +338,903 @@
     },
     {
       "id": "de-fremdscham",
-      "en_triggers": ["secondhand embarrassment", "vicarious embarrassment"],
+      "en_triggers": [
+        "secondhand embarrassment",
+        "vicarious embarrassment"
+      ],
       "tgt_span": "Fremdscham",
       "nuance_type": "untranslatable_lexical",
       "en_frame": "embarrassment for someone else",
       "target_frame": "lexicalized foreign-shame as everyday emotion term",
       "explanation": "Fremdscham compactly names vicarious cringe; English needs a phrase.",
       "evidence": "Contemporary German emotion vocabulary; bilingual internet lexicography."
+    },
+    {
+      "id": "de-uwd-abendrot",
+      "en_triggers": [
+        "evening glow",
+        "afterglow"
+      ],
+      "tgt_span": "Abendrot",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The colour of the sky when the sun is setting",
+      "target_frame": "German lexical package: Abendrot",
+      "explanation": "English usually paraphrases what German packs into 'Abendrot'. The colour of the sky when the sun is setting",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-altschmerz",
+      "en_triggers": [
+        "old pain",
+        "old but persistent worries"
+      ],
+      "tgt_span": "Altschmerz",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "Weariness with the same old issues that you have always had ",
+      "target_frame": "German lexical package: Altschmerz",
+      "explanation": "English usually paraphrases what German packs into 'Altschmerz'. Weariness with the same old issues that you have always had ",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-angrillen",
+      "en_triggers": [
+        "barbecue"
+      ],
+      "tgt_span": "angrillen",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Beginning the grilling season",
+      "target_frame": "German lexical package: angrillen",
+      "explanation": "English usually paraphrases what German packs into 'angrillen'. Beginning the grilling season",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-backpfeifengesicht",
+      "en_triggers": [
+        "a stupid",
+        "dumb",
+        "damn",
+        "punchable face"
+      ],
+      "tgt_span": "Backpfeifengesicht",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A face in need of a slap",
+      "target_frame": "German lexical package: Backpfeifengesicht",
+      "explanation": "English usually paraphrases what German packs into 'Backpfeifengesicht'. A face in need of a slap",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-beschaulich",
+      "en_triggers": [
+        "contemplative",
+        "pensive",
+        "reflective"
+      ],
+      "tgt_span": "beschaulich",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Quiet and pensive; pleasantly contemplative, unhurried in a fashion that inspires mental well-being",
+      "target_frame": "German lexical package: beschaulich",
+      "explanation": "English usually paraphrases what German packs into 'beschaulich'. Quiet and pensive; pleasantly contemplative, unhurried in a fashion that inspires mental well-being",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-drachenfutter",
+      "en_triggers": [
+        "apology gift",
+        "peace offering"
+      ],
+      "tgt_span": "Drachenfutter",
+      "nuance_type": "self_other",
+      "en_frame": "A gift to your significant other or to a dear person as a form of apology",
+      "target_frame": "German lexical package: Drachenfutter",
+      "explanation": "English usually paraphrases what German packs into 'Drachenfutter'. A gift to your significant other or to a dear person as a form of apology",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-dreik-sehoch",
+      "en_triggers": [
+        "tot",
+        "titch",
+        "half-pint"
+      ],
+      "tgt_span": "Dreikäsehoch",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A small child who is as tall as three wheels of cheese stacked upon one another",
+      "target_frame": "German lexical package: Dreikäsehoch",
+      "explanation": "English usually paraphrases what German packs into 'Dreikäsehoch'. A small child who is as tall as three wheels of cheese stacked upon one another",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-durcheinander",
+      "en_triggers": [
+        "mess",
+        "chaos",
+        "tumult",
+        "confusion"
+      ],
+      "tgt_span": "Durcheinander",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Complete mess; screwed up beyond all recognition",
+      "target_frame": "German lexical package: Durcheinander",
+      "explanation": "English usually paraphrases what German packs into 'Durcheinander'. Complete mess; screwed up beyond all recognition",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-durcheinander",
+      "en_triggers": [
+        "messily",
+        "confusedly"
+      ],
+      "tgt_span": "durcheinander",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "In a very messy, confused and untidy way",
+      "target_frame": "German lexical package: durcheinander",
+      "explanation": "English usually paraphrases what German packs into 'durcheinander'. In a very messy, confused and untidy way",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-erbsenz-hler",
+      "en_triggers": [
+        "pedantic",
+        "petty",
+        "nitpicker",
+        "perfectionist"
+      ],
+      "tgt_span": "Erbsenzähler",
+      "nuance_type": "self_other",
+      "en_frame": "Someone who is nitpicky and always trying to make things perfect",
+      "target_frame": "German lexical package: Erbsenzähler",
+      "explanation": "English usually paraphrases what German packs into 'Erbsenzähler'. Someone who is nitpicky and always trying to make things perfect",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-erkl-rungsnot",
+      "en_triggers": [
+        "urge for explaration"
+      ],
+      "tgt_span": "Erklärungsnot",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "The state of having to quickly explain yourself",
+      "target_frame": "German lexical package: Erklärungsnot",
+      "explanation": "English usually paraphrases what German packs into 'Erklärungsnot'. The state of having to quickly explain yourself",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-extrawurst",
+      "en_triggers": [
+        "special treatment",
+        "higher attention",
+        "special service"
+      ],
+      "tgt_span": "Extrawurst",
+      "nuance_type": "self_other",
+      "en_frame": "Special treatment, exception and/or fulfilment of an individual wish, higher attention, special service",
+      "target_frame": "German lexical package: Extrawurst",
+      "explanation": "English usually paraphrases what German packs into 'Extrawurst'. Special treatment, exception and/or fulfilment of an individual wish, higher attention, special service",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-fachidiot",
+      "en_triggers": [
+        "blinkered specialist",
+        "narrow-minded and blind expert"
+      ],
+      "tgt_span": "Fachidiot",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Someone who knows a great deal about a very narrow subject",
+      "target_frame": "German lexical package: Fachidiot",
+      "explanation": "English usually paraphrases what German packs into 'Fachidiot'. Someone who knows a great deal about a very narrow subject",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-fahrvergn-gen",
+      "en_triggers": [
+        "driving pleasure"
+      ],
+      "tgt_span": "Fahrvergnügen",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "The love of simply driving ",
+      "target_frame": "German lexical package: Fahrvergnügen",
+      "explanation": "English usually paraphrases what German packs into 'Fahrvergnügen'. The love of simply driving ",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-feierabend",
+      "en_triggers": [
+        "quitting time",
+        "hometime",
+        "closing time"
+      ],
+      "tgt_span": "Feierabend",
+      "nuance_type": "institutional_legal",
+      "en_frame": "End of the work day",
+      "target_frame": "German lexical package: Feierabend",
+      "explanation": "English usually paraphrases what German packs into 'Feierabend'. End of the work day",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-fensterln",
+      "en_triggers": [
+        "climb in through the window"
+      ],
+      "tgt_span": "fensterln",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "To visit a girl who you fancy either by coming to her window or climbing through it to see her",
+      "target_frame": "German lexical package: fensterln",
+      "explanation": "English usually paraphrases what German packs into 'fensterln'. To visit a girl who you fancy either by coming to her window or climbing through it to see her",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-fernweh",
+      "en_triggers": [
+        "strong wanderlust"
+      ],
+      "tgt_span": "Fernweh",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "To have a yearning to see distant places",
+      "target_frame": "German lexical package: Fernweh",
+      "explanation": "English usually paraphrases what German packs into 'Fernweh'. To have a yearning to see distant places",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-fingerspitzengef-hl",
+      "en_triggers": [
+        "sure instinct",
+        "fingertip feel"
+      ],
+      "tgt_span": "Fingerspitzengefühl",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "An intuitive feeling or sensation ",
+      "target_frame": "German lexical package: Fingerspitzengefühl",
+      "explanation": "English usually paraphrases what German packs into 'Fingerspitzengefühl'. An intuitive feeling or sensation ",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-fisselig",
+      "en_triggers": [
+        "grouchy",
+        "sloppy",
+        "unkempt",
+        "fussy"
+      ],
+      "tgt_span": "fisselig",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "Being flustered to the point of incompetence and confusion, because someone is nagging you or someone important is watching you.",
+      "target_frame": "German lexical package: fisselig",
+      "explanation": "English usually paraphrases what German packs into 'fisselig'. Being flustered to the point of incompetence and confusion, because someone is nagging you or someone important is watching you.",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-sich-fremdsch-men",
+      "en_triggers": [
+        "vicarious embarassment",
+        "secondhand",
+        "indirect embarassment"
+      ],
+      "tgt_span": "(sich) fremdschämen",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "To be embarrassed by something somebody/something else did",
+      "target_frame": "German lexical package: (sich) fremdschämen",
+      "explanation": "English usually paraphrases what German packs into '(sich) fremdschämen'. To be embarrassed by something somebody/something else did",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-frostbeule",
+      "en_triggers": [
+        "oversensitive to cold",
+        "thermosensitive"
+      ],
+      "tgt_span": "Frostbeule",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Someone that is very sensitive to cold",
+      "target_frame": "German lexical package: Frostbeule",
+      "explanation": "English usually paraphrases what German packs into 'Frostbeule'. Someone that is very sensitive to cold",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-frustfressen",
+      "en_triggers": [
+        "emotional overeating"
+      ],
+      "tgt_span": "frustfressen",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Excessive eating because of frustration",
+      "target_frame": "German lexical package: frustfressen",
+      "explanation": "English usually paraphrases what German packs into 'frustfressen'. Excessive eating because of frustration",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-fuchsteufelswild",
+      "en_triggers": [
+        "hopping mad",
+        "furious"
+      ],
+      "tgt_span": "Fuchsteufelswild",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "Steaming with rage",
+      "target_frame": "German lexical package: Fuchsteufelswild",
+      "explanation": "English usually paraphrases what German packs into 'Fuchsteufelswild'. Steaming with rage",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-gem-tlichkeit",
+      "en_triggers": [
+        "cosiness and comfortableness"
+      ],
+      "tgt_span": "Gemütlichkeit",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "An atmosphere of belonging, relaxation, chilled music, great food and drink",
+      "target_frame": "German lexical package: Gemütlichkeit",
+      "explanation": "English usually paraphrases what German packs into 'Gemütlichkeit'. An atmosphere of belonging, relaxation, chilled music, great food and drink",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-gl-ckspilz",
+      "en_triggers": [
+        "lucky devil"
+      ],
+      "tgt_span": "Glückspilz",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "An extremely lucky person ",
+      "target_frame": "German lexical package: Glückspilz",
+      "explanation": "English usually paraphrases what German packs into 'Glückspilz'. An extremely lucky person ",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-gretchenfrage",
+      "en_triggers": [
+        "crucial",
+        "difficult and unpleasant question"
+      ],
+      "tgt_span": "Gretchenfrage",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A direct question with the intention of unveiling the underlying thoughts of the person being questioned",
+      "target_frame": "German lexical package: Gretchenfrage",
+      "explanation": "English usually paraphrases what German packs into 'Gretchenfrage'. A direct question with the intention of unveiling the underlying thoughts of the person being questioned",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-handschuhschneeballwerfer",
+      "en_triggers": [
+        "fair weather rider",
+        "wimp"
+      ],
+      "tgt_span": "Handschuhschneeballwerfer",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A person wearing gloves to throw snowballs; a wimp",
+      "target_frame": "German lexical package: Handschuhschneeballwerfer",
+      "explanation": "English usually paraphrases what German packs into 'Handschuhschneeballwerfer'. A person wearing gloves to throw snowballs; a wimp",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-innerer-schweinehund",
+      "en_triggers": [
+        "shoulder devil"
+      ],
+      "tgt_span": "Innerer Schweinehund",
+      "nuance_type": "self_other",
+      "en_frame": "The lazy voice in your head. It symbolizes the part of you that doesn’t want to go jogging, that prefers staying at home with chocolate and pizza and is just generally lazy.",
+      "target_frame": "German lexical package: Innerer Schweinehund",
+      "explanation": "English usually paraphrases what German packs into 'Innerer Schweinehund'. The lazy voice in your head. It symbolizes the part of you that doesn’t want to go jogging, that prefers staying at home with chocolate and pizza and is just generally lazy.",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-jein",
+      "en_triggers": [
+        "yes and no"
+      ],
+      "tgt_span": "jein",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Expressing uncertainty and the inability of giving a definite affirmative answer",
+      "target_frame": "German lexical package: jein",
+      "explanation": "English usually paraphrases what German packs into 'jein'. Expressing uncertainty and the inability of giving a definite affirmative answer",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-kabelsalat",
+      "en_triggers": [
+        "tangled up cables"
+      ],
+      "tgt_span": "Kabelsalat",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Tangled up cables",
+      "target_frame": "German lexical package: Kabelsalat",
+      "explanation": "English usually paraphrases what German packs into 'Kabelsalat'. Tangled up cables",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-konfliktf-higkeit",
+      "en_triggers": [
+        "the ability to manage"
+      ],
+      "tgt_span": "Konfliktfähigkeit",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The ability to manage interpersonal conflict constructivly, without becoming personally involved",
+      "target_frame": "German lexical package: Konfliktfähigkeit",
+      "explanation": "English usually paraphrases what German packs into 'Konfliktfähigkeit'. The ability to manage interpersonal conflict constructivly, without becoming personally involved",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-kopfkino",
+      "en_triggers": [
+        "vivid imagination",
+        "inner cinema",
+        "daydream"
+      ],
+      "tgt_span": "Kopfkino",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The condition of involuntarily imagining scenarios vividly ",
+      "target_frame": "German lexical package: Kopfkino",
+      "explanation": "English usually paraphrases what German packs into 'Kopfkino'. The condition of involuntarily imagining scenarios vividly ",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-krawattenmuffel",
+      "en_triggers": [
+        "tie-hater"
+      ],
+      "tgt_span": "Krawattenmuffel",
+      "nuance_type": "self_other",
+      "en_frame": "Person who is reluctant to wear a tie",
+      "target_frame": "German lexical package: Krawattenmuffel",
+      "explanation": "English usually paraphrases what German packs into 'Krawattenmuffel'. Person who is reluctant to wear a tie",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-kummerspeck",
+      "en_triggers": [
+        "pain-triggered weight gain",
+        "fat",
+        "sorrow fat",
+        "weight-gain due to comfort food",
+        "stress weight"
+      ],
+      "tgt_span": "Kummerspeck",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The weight you gain because you are unhappy",
+      "target_frame": "German lexical package: Kummerspeck",
+      "explanation": "English usually paraphrases what German packs into 'Kummerspeck'. The weight you gain because you are unhappy",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-lebensm-de",
+      "en_triggers": [
+        "tired of life",
+        "world-weary"
+      ],
+      "tgt_span": "lebensmüde",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "Weary of life",
+      "target_frame": "German lexical package: lebensmüde",
+      "explanation": "English usually paraphrases what German packs into 'lebensmüde'. Weary of life",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-mauerbauertraurigkeit",
+      "en_triggers": [
+        "the inexplicable urge to"
+      ],
+      "tgt_span": "Mauerbauertraurigkeit",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "The inexplicable urge to push people away, even close friends or people who you really like",
+      "target_frame": "German lexical package: Mauerbauertraurigkeit",
+      "explanation": "English usually paraphrases what German packs into 'Mauerbauertraurigkeit'. The inexplicable urge to push people away, even close friends or people who you really like",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-packesel",
+      "en_triggers": [
+        "drudge",
+        "drone"
+      ],
+      "tgt_span": "Packesel",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The person who is stuck carrying everyone else’s bags on a trip",
+      "target_frame": "German lexical package: Packesel",
+      "explanation": "English usually paraphrases what German packs into 'Packesel'. The person who is stuck carrying everyone else’s bags on a trip",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-pantoffelheld",
+      "en_triggers": [
+        "henpecked guy"
+      ],
+      "tgt_span": "Pantoffelheld",
+      "nuance_type": "self_other",
+      "en_frame": "A man who may act tough in front of his friends but can’t stand up for himself against his wife",
+      "target_frame": "German lexical package: Pantoffelheld",
+      "explanation": "English usually paraphrases what German packs into 'Pantoffelheld'. A man who may act tough in front of his friends but can’t stand up for himself against his wife",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-putzfimmel",
+      "en_triggers": [
+        "obsession with cleaning"
+      ],
+      "tgt_span": "Putzfimmel",
+      "nuance_type": "self_other",
+      "en_frame": "Someone who is obsessed with cleaning",
+      "target_frame": "German lexical package: Putzfimmel",
+      "explanation": "English usually paraphrases what German packs into 'Putzfimmel'. Someone who is obsessed with cleaning",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-rabenmutter",
+      "en_triggers": [
+        "bad mom",
+        "heartless",
+        "uncaringmother"
+      ],
+      "tgt_span": "Rabenmutter",
+      "nuance_type": "self_other",
+      "en_frame": "A bad, cold-hearted, brutal mom incapable of taking care of her child",
+      "target_frame": "German lexical package: Rabenmutter",
+      "explanation": "English usually paraphrases what German packs into 'Rabenmutter'. A bad, cold-hearted, brutal mom incapable of taking care of her child",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-radfahrer",
+      "en_triggers": [
+        "cyclist",
+        "biker"
+      ],
+      "tgt_span": "Radfahrer",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Someone going on a bike",
+      "target_frame": "German lexical package: Radfahrer",
+      "explanation": "English usually paraphrases what German packs into 'Radfahrer'. Someone going on a bike",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-r-ckkehrunruhe",
+      "en_triggers": [
+        "epicaricacy",
+        "dance on someone's grave"
+      ],
+      "tgt_span": "Rückkehrunruhe",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "The feeling of returning home after an immersive trip only to find it fading rapidly from your awareness",
+      "target_frame": "German lexical package: Rückkehrunruhe",
+      "explanation": "English usually paraphrases what German packs into 'Rückkehrunruhe'. The feeling of returning home after an immersive trip only to find it fading rapidly from your awareness",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-schadenfreude",
+      "en_triggers": [
+        "epicaricacy",
+        "dance on someone's grave"
+      ],
+      "tgt_span": "Schadenfreude",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "Pleasure derived by someone from another person's misfortune",
+      "target_frame": "German lexical package: Schadenfreude",
+      "explanation": "English usually paraphrases what German packs into 'Schadenfreude'. Pleasure derived by someone from another person's misfortune",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-schilderwald",
+      "en_triggers": [
+        "jungle of traffic signs"
+      ],
+      "tgt_span": "Schilderwald",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A street so crowded with signs that you become lost",
+      "target_frame": "German lexical package: Schilderwald",
+      "explanation": "English usually paraphrases what German packs into 'Schilderwald'. A street so crowded with signs that you become lost",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-schnapsdrossel",
+      "en_triggers": [
+        "boozehound with high alcohol tolerance"
+      ],
+      "tgt_span": "Schnapsdrossel",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A person that drinks a lot but rarely gets drunk",
+      "target_frame": "German lexical package: Schnapsdrossel",
+      "explanation": "English usually paraphrases what German packs into 'Schnapsdrossel'. A person that drinks a lot but rarely gets drunk",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-schnapsidee",
+      "en_triggers": [
+        "absurd",
+        "crazy",
+        "bizarre idea",
+        "crackpot idea",
+        "hare-brained idea"
+      ],
+      "tgt_span": "Schnapsidee",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "An idea so stupid the person must have thought of it while drunk",
+      "target_frame": "German lexical package: Schnapsidee",
+      "explanation": "English usually paraphrases what German packs into 'Schnapsidee'. An idea so stupid the person must have thought of it while drunk",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-schnapsleiche",
+      "en_triggers": [
+        "so who passed out"
+      ],
+      "tgt_span": "Schnapsleiche",
+      "nuance_type": "self_other",
+      "en_frame": "So who passed out drunk ",
+      "target_frame": "German lexical package: Schnapsleiche",
+      "explanation": "English usually paraphrases what German packs into 'Schnapsleiche'. So who passed out drunk ",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-schulbildend",
+      "en_triggers": [
+        "school-forming",
+        "thought-shaping"
+      ],
+      "tgt_span": "schulbildend",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Inspiring or leading to the creation of schools of thought",
+      "target_frame": "German lexical package: schulbildend",
+      "explanation": "English usually paraphrases what German packs into 'schulbildend'. Inspiring or leading to the creation of schools of thought",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-schw-rmerei",
+      "en_triggers": [
+        "enthusiasm",
+        "rapture",
+        "fanaticism",
+        "ecstasy"
+      ],
+      "tgt_span": "Schwärmerei",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "Excessive or extreme enthusiasm or sentimentality",
+      "target_frame": "German lexical package: Schwärmerei",
+      "explanation": "English usually paraphrases what German packs into 'Schwärmerei'. Excessive or extreme enthusiasm or sentimentality",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-sitzfleisch",
+      "en_triggers": [
+        "iron willpower",
+        "persistence"
+      ],
+      "tgt_span": "Sitzfleisch",
+      "nuance_type": "self_other",
+      "en_frame": "Being persistent enough to complete a tough or big task",
+      "target_frame": "German lexical package: Sitzfleisch",
+      "explanation": "English usually paraphrases what German packs into 'Sitzfleisch'. Being persistent enough to complete a tough or big task",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-spannungsbogen",
+      "en_triggers": [
+        "increasing suspense"
+      ],
+      "tgt_span": "Spannungsbogen",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "\tA sequence of events which build up suspense and/or tension",
+      "target_frame": "German lexical package: Spannungsbogen",
+      "explanation": "English usually paraphrases what German packs into 'Spannungsbogen'. \tA sequence of events which build up suspense and/or tension",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-sp-tz-nder",
+      "en_triggers": [
+        "slow learner"
+      ],
+      "tgt_span": "Spätzünder",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A person who needs a long time to understand something",
+      "target_frame": "German lexical package: Spätzünder",
+      "explanation": "English usually paraphrases what German packs into 'Spätzünder'. A person who needs a long time to understand something",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-sturmfrei",
+      "en_triggers": [
+        "free",
+        "empty place without people"
+      ],
+      "tgt_span": "sturmfrei",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Having the house or flat to oneself due to the absence of parents, housemates, or flatmates",
+      "target_frame": "German lexical package: sturmfrei",
+      "explanation": "English usually paraphrases what German packs into 'sturmfrei'. Having the house or flat to oneself due to the absence of parents, housemates, or flatmates",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-tatendrang",
+      "en_triggers": [
+        "thirst for action",
+        "energy",
+        "urge to act"
+      ],
+      "tgt_span": "Tatendrang",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "The sensation you feel when you are keen to get things done, clear your to-do list, or take up new projects",
+      "target_frame": "German lexical package: Tatendrang",
+      "explanation": "English usually paraphrases what German packs into 'Tatendrang'. The sensation you feel when you are keen to get things done, clear your to-do list, or take up new projects",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-torschlusspanik",
+      "en_triggers": [
+        "eleventh hour panic with midlife crisis"
+      ],
+      "tgt_span": "Torschlusspanik",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "The fear that time is running out on achieving life goals",
+      "target_frame": "German lexical package: Torschlusspanik",
+      "explanation": "English usually paraphrases what German packs into 'Torschlusspanik'. The fear that time is running out on achieving life goals",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-trennungsagent-schlussmacher",
+      "en_triggers": [
+        "break-up agency"
+      ],
+      "tgt_span": "Trennungsagent/Schlussmacher",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "A man hired by women to break the news to their boyfriends that they are breaking up",
+      "target_frame": "German lexical package: Trennungsagent/Schlussmacher",
+      "explanation": "English usually paraphrases what German packs into 'Trennungsagent/Schlussmacher'. A man hired by women to break the news to their boyfriends that they are breaking up",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-trennungsagentur",
+      "en_triggers": [
+        "break-up agency"
+      ],
+      "tgt_span": "Trennungsagentur",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "A break-up agency, which employs people to break up (dump people) on customers' behalves",
+      "target_frame": "German lexical package: Trennungsagentur",
+      "explanation": "English usually paraphrases what German packs into 'Trennungsagentur'. A break-up agency, which employs people to break up (dump people) on customers' behalves",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-treppenwitz",
+      "en_triggers": [
+        "the brilliant"
+      ],
+      "tgt_span": "Treppenwitz",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The brilliant, witty comeback you think of when you're already out of the door and halfway down the stairs",
+      "target_frame": "German lexical package: Treppenwitz",
+      "explanation": "English usually paraphrases what German packs into 'Treppenwitz'. The brilliant, witty comeback you think of when you're already out of the door and halfway down the stairs",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-t-delig",
+      "en_triggers": [
+        "senile and age-related dull"
+      ],
+      "tgt_span": "tüdelig",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Sweet, elderly, and senile",
+      "target_frame": "German lexical package: tüdelig",
+      "explanation": "English usually paraphrases what German packs into 'tüdelig'. Sweet, elderly, and senile",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-verschlimmbesserung",
+      "en_triggers": [
+        "improvement for the worse"
+      ],
+      "tgt_span": "Verschlimmbesserung",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "An attempt at improvement that makes things worse than they already were",
+      "target_frame": "German lexical package: Verschlimmbesserung",
+      "explanation": "English usually paraphrases what German packs into 'Verschlimmbesserung'. An attempt at improvement that makes things worse than they already were",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-vorfreude",
+      "en_triggers": [
+        "joyful anticipation"
+      ],
+      "tgt_span": "Vorfreude",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "The joyful, intense anticipation that comes from imagining future pleasures",
+      "target_frame": "German lexical package: Vorfreude",
+      "explanation": "English usually paraphrases what German packs into 'Vorfreude'. The joyful, intense anticipation that comes from imagining future pleasures",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-waldeinsamkeit",
+      "en_triggers": [
+        "woodland solitude",
+        "self-seclusion in the forest"
+      ],
+      "tgt_span": "Waldeinsamkeit",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "The feeling of solitude in the woods",
+      "target_frame": "German lexical package: Waldeinsamkeit",
+      "explanation": "English usually paraphrases what German packs into 'Waldeinsamkeit'. The feeling of solitude in the woods",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-warmduscher",
+      "en_triggers": [
+        "timid",
+        "risk-averse",
+        "boring person",
+        "wimp",
+        "weakling",
+        "molly-coddle"
+      ],
+      "tgt_span": "Warmduscher",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Those who have trouble stepping out of their comfort zone",
+      "target_frame": "German lexical package: Warmduscher",
+      "explanation": "English usually paraphrases what German packs into 'Warmduscher'. Those who have trouble stepping out of their comfort zone",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-wegbier",
+      "en_triggers": [
+        "a beer or beverage"
+      ],
+      "tgt_span": "Wegbier",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "A beer or beverage containing beer consumed by residents and tourists on their way to or from work, to a party or between places of stay.",
+      "target_frame": "German lexical package: Wegbier",
+      "explanation": "English usually paraphrases what German packs into 'Wegbier'. A beer or beverage containing beer consumed by residents and tourists on their way to or from work, to a party or between places of stay.",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-weichei",
+      "en_triggers": [
+        "wimp",
+        "wuss",
+        "softy",
+        "timid",
+        "risk-averse",
+        "boring person"
+      ],
+      "tgt_span": "Weichei",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "Someone who is weak or coward ",
+      "target_frame": "German lexical package: Weichei",
+      "explanation": "English usually paraphrases what German packs into 'Weichei'. Someone who is weak or coward ",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-weltschmerz",
+      "en_triggers": [
+        "tired of life",
+        "world-weary"
+      ],
+      "tgt_span": "Weltschmerz",
+      "nuance_type": "affect_atmosphere",
+      "en_frame": "Pain, sadness, suffering from the world and its inadequacy with regard to one's own wishes, expectations, etc. that characterise the basic mood of the soul.",
+      "target_frame": "German lexical package: Weltschmerz",
+      "explanation": "English usually paraphrases what German packs into 'Weltschmerz'. Pain, sadness, suffering from the world and its inadequacy with regard to one's own wishes, expectations, etc. that characterise the basic mood of the soul.",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-zechpreller",
+      "en_triggers": [
+        "skip out on a tab",
+        "the bill"
+      ],
+      "tgt_span": "Zechpreller",
+      "nuance_type": "self_other",
+      "en_frame": "A person who leaves a restaurant without paying",
+      "target_frame": "German lexical package: Zechpreller",
+      "explanation": "English usually paraphrases what German packs into 'Zechpreller'. A person who leaves a restaurant without paying",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
+    },
+    {
+      "id": "de-uwd-zugzwang",
+      "en_triggers": [
+        "be forced to",
+        "be in a tight corner"
+      ],
+      "tgt_span": "Zugzwang",
+      "nuance_type": "untranslatable_lexical",
+      "en_frame": "To be forced to make a move even though it will likely be at your disadvantage",
+      "target_frame": "German lexical package: Zugzwang",
+      "explanation": "English usually paraphrases what German packs into 'Zugzwang'. To be forced to make a move even though it will likely be at your disadvantage",
+      "evidence": "Koharu24 MyUWD Dataset De + (untranslatable-term reverse-dictionary resource); see data/external/SOURCES.md"
     }
   ]
 }
