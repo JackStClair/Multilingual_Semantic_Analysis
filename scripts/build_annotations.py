@@ -514,23 +514,29 @@ def _stub_translation(ctx: str, lang_pair: str, item: dict) -> str:
 
 
 def split_rows(rows: list[dict], seed: int = 13):
-    # Split by lexicon_id to reduce leakage of the same concept across splits
-    by_lex: dict[str, list[dict]] = {}
+    """Random split by source sentence for a trainable v1 demo.
+
+    Concept-held-out splits are a better research protocol later, but with a
+    tiny seed set they leave the MLX head with zero exposure to test triggers
+    and collapse F1. Group by (lang_pair, source_text) so multi-span sentences
+    stay in one split.
+    """
+    by_sent: dict[tuple[str, str], list[dict]] = {}
     for r in rows:
-        by_lex.setdefault(r["lexicon_id"], []).append(r)
-    ids = sorted(by_lex)
+        by_sent.setdefault((r["lang_pair"], r["source_text"]), []).append(r)
+    keys = sorted(by_sent)
     rng = random.Random(seed)
-    rng.shuffle(ids)
-    n = len(ids)
+    rng.shuffle(keys)
+    n = len(keys)
     n_test = max(1, int(0.15 * n))
     n_val = max(1, int(0.15 * n))
-    test_ids = set(ids[:n_test])
-    val_ids = set(ids[n_test : n_test + n_val])
+    test_keys = set(keys[:n_test])
+    val_keys = set(keys[n_test : n_test + n_val])
     train, val, test = [], [], []
-    for lid, items in by_lex.items():
-        if lid in test_ids:
+    for key, items in by_sent.items():
+        if key in test_keys:
             test.extend(items)
-        elif lid in val_ids:
+        elif key in val_keys:
             val.extend(items)
         else:
             train.extend(items)

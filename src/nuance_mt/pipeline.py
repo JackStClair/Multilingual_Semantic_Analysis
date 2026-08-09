@@ -64,9 +64,11 @@ class NuancePipeline:
     def run(self, text: str, target: TargetLang) -> PipelineResult:
         lang_pair = LANG_PAIR[target]
         translation = self.translator.translate(text, target)
-        spans = self.detector.predict(text, lang_pair)
-        if (not spans) and self.lexicon is not None:
-            spans = self.lexicon.predict(text, lang_pair)
+        model_spans = self.detector.predict(text, lang_pair)
+        lex_spans = self.lexicon.predict(text, lang_pair) if self.lexicon else []
+        # Lexicon is research-grounded and reliable on seed terms; model may
+        # add generalization. On overlap, prefer lexicon (higher trust).
+        spans = _merge_span_lists(lex_spans, model_spans)
         hits = [self._enrich(s, lang_pair) for s in spans]
         return PipelineResult(
             source=text, translation=translation, target=target, hits=hits
@@ -86,6 +88,18 @@ class NuancePipeline:
             evidence=exp.evidence if exp else "",
             tgt_span=exp.tgt_span if exp else "",
         )
+
+
+def _merge_span_lists(primary, secondary):
+    """Prefer primary spans on character overlap; keep non-overlapping secondary."""
+    from nuance_mt.detect import DetectedSpan
+
+    out: list[DetectedSpan] = list(primary)
+    for s in secondary:
+        if any(s.start < p.end and s.end > p.start for p in out):
+            continue
+        out.append(s)
+    return sorted(out, key=lambda x: x.start)
 
 
 def highlight_html(text: str, hits: list[NuanceHit]) -> str:
