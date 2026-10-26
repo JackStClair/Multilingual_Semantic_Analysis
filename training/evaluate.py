@@ -178,7 +178,13 @@ def lexicon_baseline_on_annotations(split: str = "test") -> dict:
 def evaluate_trained(split: str = "test", weights: Path | None = None) -> dict:
     import mlx.core as mx
 
-    from training.train_span_classifier import batches, device_torch, encode_features, load_split
+    from training.train_span_classifier import (
+        batches,
+        cache_split_features,
+        device_torch,
+        evaluate_head,
+        load_split,
+    )
 
     proc = ROOT / "data" / "processed" / f"{split}.jsonl"
     data = load_split(proc)
@@ -189,25 +195,10 @@ def evaluate_trained(split: str = "test", weights: Path | None = None) -> dict:
     device = device_torch()
     encoder.to(device)
     encoder.eval()
-    head = load_head(weights, encoder.config.hidden_size, num_labels=len(LABELS))
-
-    all_pred, all_gold = [], []
-    for batch in batches(data, batch_size=8, shuffle=False, seed=0):
-        hidden, attention_mask, labels = encode_features(encoder, batch, device)
-        logits = head(hidden, training=False)
-        pred = np.array(mx.argmax(logits, axis=-1))
-        gold = np.array(labels)
-        mask = np.array(attention_mask)
-        for p_row, g_row, m_row in zip(pred, gold, mask):
-            p_tags, g_tags = [], []
-            for p, g, m in zip(p_row, g_row, m_row):
-                if m == 0 or g == -100:
-                    continue
-                p_tags.append(LABELS[int(p)])
-                g_tags.append(LABELS[int(g)])
-            all_pred.append(p_tags)
-            all_gold.append(g_tags)
-    metrics = span_f1_from_bio(all_gold, all_pred)
+    cached = cache_split_features(split, data, encoder, device, batch_size=8)
+    del encoder
+    head = load_head(weights, cached[0]["hidden"].shape[-1], num_labels=len(LABELS))
+    metrics = evaluate_head(head, cached, batch_size=8)
     metrics["system"] = "mlx_head_frozen_xlmr"
     metrics["split"] = split
     return metrics

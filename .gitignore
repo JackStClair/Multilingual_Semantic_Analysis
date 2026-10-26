@@ -22,6 +22,7 @@ runs/
 .cache/
 *.ckpt
 data/processed/
+data/processed/feature_cache/
 
 # Local secrets
 .hf_token
@@ -38,3 +39,6 @@ data/processed/
 
 # Gradio
 flagged/
+
+# Local review progress (optional to commit later)
+# data/annotations/review_decisions.jsonl

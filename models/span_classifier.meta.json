@@ -1,0 +1,29 @@
+{
+  "model_name": "xlm-roberta-base",
+  "labels": [
+    "O",
+    "B-political_social",
+    "I-political_social",
+    "B-self_other",
+    "I-self_other",
+    "B-affect_atmosphere",
+    "I-affect_atmosphere",
+    "B-politeness_stance",
+    "I-politeness_stance",
+    "B-institutional_legal",
+    "I-institutional_legal",
+    "B-untranslatable_lexical",
+    "I-untranslatable_lexical"
+  ],
+  "hidden_size": 768,
+  "best_strict_f1": 0.5595567867036011,
+  "best_partial_f1": 0.6869806094182824,
+  "epoch": 18,
+  "trainer": "mlx_head_v2_weighted_cached",
+  "dropout": 0.2,
+  "label_smoothing": 0.05,
+  "lang_pair_tokens": {
+    "en-de": "<en-de>",
+    "en-ja": "<en-ja>"
+  }
+}

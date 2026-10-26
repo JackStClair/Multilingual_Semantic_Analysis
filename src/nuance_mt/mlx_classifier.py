@@ -10,19 +10,36 @@ import numpy as np
 
 
 class TokenClassificationHead(nn.Module):
-    """Two-layer MLP head over frozen encoder hidden states."""
+    """Deeper MLP head over frozen encoder hidden states.
 
-    def __init__(self, hidden_size: int, num_labels: int, dropout: float = 0.1):
+    Layout: LN → Linear → GELU → Dropout → Linear → GELU → Dropout → Linear
+    with a residual from the first projection into the second block.
+    """
+
+    def __init__(
+        self,
+        hidden_size: int,
+        num_labels: int,
+        dropout: float = 0.2,
+        intermediate_size: int | None = None,
+    ):
         super().__init__()
-        self.dense = nn.Linear(hidden_size, hidden_size)
-        self.classifier = nn.Linear(hidden_size, num_labels)
+        mid = intermediate_size or hidden_size
+        self.ln = nn.LayerNorm(hidden_size)
+        self.dense1 = nn.Linear(hidden_size, mid)
+        self.dense2 = nn.Linear(mid, mid)
+        self.classifier = nn.Linear(mid, num_labels)
         self.drop = nn.Dropout(dropout)
 
     def __call__(self, hidden: mx.array, training: bool = False) -> mx.array:
-        x = nn.gelu(self.dense(hidden))
+        x = self.ln(hidden)
+        h = nn.gelu(self.dense1(x))
         if training:
-            x = self.drop(x)
-        return self.classifier(x)
+            h = self.drop(h)
+        h2 = nn.gelu(self.dense2(h) + h)
+        if training:
+            h2 = self.drop(h2)
+        return self.classifier(h2)
 
 
 def save_head(model: TokenClassificationHead, path: str | Path) -> None:
@@ -37,11 +54,12 @@ def load_head(
     path: str | Path,
     hidden_size: int,
     num_labels: int,
+    dropout: float = 0.2,
 ) -> TokenClassificationHead:
     path = Path(path)
     if path.suffix == ".npz":
         path = path.with_suffix(".safetensors")
-    model = TokenClassificationHead(hidden_size, num_labels)
+    model = TokenClassificationHead(hidden_size, num_labels, dropout=dropout)
     model.load_weights(str(path))
     mx.eval(model.parameters())
     return model
