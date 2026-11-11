@@ -21,28 +21,28 @@ So the learnable detector is trained in MLX without needing a full fragile XLM-R
 
 ## Quickstart
 
+Requires **Python ≥ 3.10** and works best on **Apple Silicon** (MLX + optional MPS).
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
 
-# Prepare BIO tags from annotations
-python -m training.prepare_data
-
-# Train span detector with MLX (Apple Silicon)
-python -m training.train_span_classifier --epochs 8
-
-# Evaluate vs lexicon baseline
-python -m training.evaluate
-
-# Local HTML UI (translate + review medium imports)
+# Local HTML UI (lexicon-backed nuances work immediately)
 python -m nuance_mt.ui.server
 # http://127.0.0.1:7860/        → translator
 # http://127.0.0.1:7860/review  → human-clean medium rows
-
-# Optional Gradio demo
-python -m nuance_mt.ui.app
 ```
+
+Trained MLX head weights are **not** shipped in this repo (gitignored). After clone, the UI still runs via the seed/explanation lexicon; train locally for the neural detector:
+
+```bash
+python -m training.prepare_data
+python -m training.train_span_classifier --epochs 40
+python -m training.evaluate
+```
+
+Optional Gradio demo: `python -m nuance_mt.ui.app`
 
 Human-cleaning guide: [`data/guidelines/REVIEW.md`](data/guidelines/REVIEW.md).
 
@@ -75,4 +75,6 @@ notebooks/              # error analysis
 
 ## License
 
-MIT — dataset annotations are research prototypes; verify citations before academic reuse.
+- **Code:** [MIT](LICENSE)
+- **Project annotations / seed lexicons / explanations:** research prototypes under MIT for reuse, with no warranty of linguistic correctness; verify citations before academic use
+- **Third-party data:** see [`data/external/SOURCES.md`](data/external/SOURCES.md). In particular, [`INK-USC/untranslatability-corpus`](https://huggingface.co/datasets/INK-USC/untranslatability-corpus) is **CC BY 4.0** (attribution required). Do not assume every file under `data/external/` is MIT.

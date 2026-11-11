@@ -2,6 +2,8 @@
 
 Downloaded into `data/external/` for lexicon/annotation expansion. Do **not** treat imports as gold without spot-checking; confidence is marked `medium`.
 
+**Licensing:** project *code* is MIT. Files in this folder keep their upstream licenses. Prefer downloading upstream artifacts locally rather than republishing them if the upstream license is unclear.
+
 ## 1. Koharu24 MyUWD (German / Japanese untranslatable terms)
 
 - **Repo:** https://github.com/Koharu24/mBERT-Unaligned-fine-tuning-for-a-cross-lingual-RD-of-untranslatable-terms  

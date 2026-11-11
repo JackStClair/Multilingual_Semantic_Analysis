@@ -17,6 +17,7 @@ models/**
 *.pt
 *.bin
 *.safetensors
+*.meta.json
 wandb/
 runs/
 .cache/
@@ -40,5 +41,5 @@ data/processed/feature_cache/
 # Gradio
 flagged/
 
-# Local review progress (optional to commit later)
-# data/annotations/review_decisions.jsonl
+# Local review progress
+data/annotations/review_decisions.jsonl
