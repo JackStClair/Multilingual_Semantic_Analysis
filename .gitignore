@@ -24,6 +24,7 @@ runs/
 *.ckpt
 data/processed/
 data/processed/feature_cache/
+data/external/uwd_*.xlsx
 
 # Local secrets
 .hf_token
